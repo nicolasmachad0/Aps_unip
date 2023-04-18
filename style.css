@@ -1,0 +1,38 @@
+* {
+    box-sizing: 0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: calc(118vh - 110px);
+    background: no-repeat center/cover url("./Assets/Capa_site.jpg")
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+.caixa-titulo {
+    margin-left: 250px;
+    margin-top: 200px;
+
+}
+
+.caixa-titulo h1 {
+    color: #00FF0A;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 80px;
+    padding: 10px;
+}
+
+.caixa-titulo h3 {
+    color: white;
+    margin-left: 170px;
+    font-size: 40px;
+}

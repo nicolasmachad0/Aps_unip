@@ -4,24 +4,43 @@
     padding: 0;
 }
 
+/*CAPA*/
+
 header {
     height: calc(118vh - 110px);
     background: no-repeat center/cover url("./Assets/Capa_site.jpg")
 }
 
-ul {
+.navegacao {
     display: flex;
     list-style: none;
     justify-content: space-evenly;
     font-size: 20px;
     color: #FFFFFF;
     padding: 10px;
+    font-family: 'Roboto', sans-serif;
+
 }
 
-.caixa-titulo {
-    margin-left: 250px;
-    margin-top: 200px;
+a {
+    text-decoration: none;
+    color: white;
+}
 
+a:hover,
+.active {
+    color: #49ff49 !important;
+}
+
+.caixa-titulo {    
+    margin-left: 330px;
+    margin-top: 200px;
+    animation: fadeIn 2s linear;
+}
+
+@keyframes fadeIn{ /*transição FADE*/
+    from {opacity: 0;}
+    to {opacity: 1;}
 }
 
 .caixa-titulo h1 {
@@ -29,10 +48,53 @@ ul {
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-size: 80px;
     padding: 10px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .caixa-titulo h3 {
     color: white;
-    margin-left: 170px;
-    font-size: 40px;
+    margin-left: 140px;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
 }
+
+/*CAPA*/
+
+/*Informações Iniciais*/
+
+.informacoes{
+    height: 700px;
+    background-color: white;
+}
+
+.informacoes h1{
+    text-align: center;
+    padding: 30px;
+}
+
+.conteudos{
+    display: flex;
+    list-style: none;
+    gap: 200px;
+    margin-left: 300px;
+}
+
+/*Informações Iniciais*/
+
+/*Sobre o Tema*/
+
+.sobre{
+    height: 600px;
+    background-color: aqua;
+}
+
+/*Sobre o Tema*/
+
+/*Integrantes*/
+
+.integrantes{
+    height: 350px;
+    background-color: #191919;
+}
+
+/*Integrantes*/

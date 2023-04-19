@@ -18,7 +18,7 @@ header {
     font-size: 20px;
     color: #FFFFFF;
     padding: 10px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
 
 }
 
@@ -32,15 +32,22 @@ a:hover,
     color: #49ff49 !important;
 }
 
-.caixa-titulo {    
+.caixa-titulo {
     margin-left: 330px;
     margin-top: 200px;
     animation: fadeIn 2s linear;
 }
 
-@keyframes fadeIn{ /*transição FADE*/
-    from {opacity: 0;}
-    to {opacity: 1;}
+@keyframes fadeIn {
+
+    /*transição FADE*/
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 .caixa-titulo h1 {
@@ -62,37 +69,52 @@ a:hover,
 
 /*Informações Iniciais*/
 
-.informacoes{
+.informacoes {
+    font-family: 'Poppins', sans-serif;
     height: 700px;
     background-color: white;
 }
 
-.informacoes h1{
+.informacoes h1 {
     text-align: center;
     padding: 30px;
 }
 
-.conteudos{
+.conteudos {
     display: flex;
     list-style: none;
     gap: 100px;
-    margin: 0px 0px 0px 360px;
+    margin: 0px 0px 0px 350px;
 }
 
-.informacoes button{
-     height: 130px;
-     width: 130px;
-     border-radius: 200px;
-     background-color: white;
-     
+.conteudos li {
+    display: grid;
+}
+
+.conteudos p {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.informacoes button {
+    font-family: 'Poppins', sans-serif;
+    height: 130px;
+    width: 130px;
+    border-radius: 200px;
+    background-color: white;
+    border: 1px solid #dbd4d4;
+    cursor: pointer;
 
 }
+
+
 
 /*Informações Iniciais*/
 
 /*Sobre o Tema*/
 
-.sobre{
+.sobre {
     height: 600px;
     background-color: #FCFAF8;
 }
@@ -101,7 +123,7 @@ a:hover,
 
 /*Integrantes*/
 
-.integrantes{
+.integrantes {
     height: 400px;
     background-color: #191919;
 }

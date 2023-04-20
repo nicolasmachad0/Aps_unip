@@ -143,13 +143,14 @@ a:hover,
     height: 300px;
     width: 980px;
     background-color: blue;
-    margin: 40px 100px 200px 100px;
+    margin: 40px 40px 200px 100px;
 }
 
 .box2 {
     height: 300px;
-    width: 800px;
+    width: 500px;
     background-color: red;
+    margin: 40px 40px 0px 0px;
 }
 
 .box1 p {
@@ -159,7 +160,7 @@ a:hover,
 }
 
 .box2 img {
-    height: 350px;
+    height: 300px;
     margin-left: 50px;
 }
  

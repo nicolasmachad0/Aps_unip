@@ -12,7 +12,7 @@
         rel="stylesheet">
     <link rel="shortcut icon" href="./Assets/icone_sustentabilidade.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="./scripts.js">
+    <script src="./scripts.js"></script>
     <title>Ritmo de Consumo</title>
 </head>
 
@@ -40,20 +40,46 @@
         <h1>Informações Iniciais</h1>
 
         <ul class="conteudos">
-            <li> <button><img src="./Assets/icone_planta.png" height="100px"></button>
+            <li> <button id="meuBotao" onclick="trocaTexto1()"><img src="./Assets/icone_planta.png"
+                        height="100px"></button>
                 <p>Meio Ambiente</p>
             </li>
-            <li> <button><img src="./Assets/icone_sus.png" height="100px"></button>
+            <li> <button id="meuBotao" onclick="trocaTexto2()"><img src="./Assets/icone_sus.png"
+                        height="100px"></button>
                 <p>Sustentabilidade</p>
             </li>
-            <li> <button><img src="./Assets/icone_ritmo.png" height="100px"></button>
+            <li> <button id="meuBotao" onclick="trocaTexto3()"><img src="./Assets/icone_ritmo.png"
+                        height="100px"></button>
                 <p>Ritmo de Consumo</p>
             </li>
         </ul>
+
+        <div class="caixa-texto">
+
+            <p id="meuTexto">O meio ambiente refere-se ao conjunto de fatores físicos, biológicos e químicos que cerca
+                os seres vivos, influenciando-os e sendo influenciado por eles. Pode ser entendido também como o
+                conjunto de condições que permitem abrigar e reger a vida em todas as suas formas - os ecossistemas que
+                existem na Terra.</p>
+
+        </div>
     </div>
 
     <div class="sobre">
+
         <h1>Sobre o Tema</h1>
+
+        <div class="texto-sobre">
+
+            <p>Ter um estilo de vida sustentável é muito mais do que consumir de forma responsável, também consiste
+            em estar comprometido com o meio ambiente, o que se consegue colocando em prática pequenas ações em
+            nosso dia a dia. Um estilo de vida sustentável permitirá preservar o planeta para as futuras
+            gerações.</p>
+
+            <img class="carrosel" src="./Assets/torneira.jpg" height="100px"  alt="imagem de um torneira">
+
+
+        </div>
+
     </div>
 
     <footer class="integrantes">

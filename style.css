@@ -141,19 +141,31 @@ a:hover,
 }
 
 .box1 {
-    height: 300px;
-    width: 500px;
-    margin: 40px 40px 100px 100px;
+    height: 400px;
+    width: 600px;
+    margin: 30px 40px 100px 70px;
 }
 
 .box1 p {
     font-family: 'Poppins', sans-serif;
     text-align: center;
     font-size: 20px;
+    padding: 25px;
 }
 
-.box1 button{
-    
+.box1 a{
+    margin: 10px 0px 0px 220px;
+    background-color: #49ff49;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.box1 a:hover{
+    background-color: transparent;
+    border: 2px solid #49ff49;
 }
 
 .box2 {
@@ -164,7 +176,7 @@ a:hover,
 
 .box2 img {
     height: 300px;
-    margin-left: 50px;
+    margin-left: 20px;
 }
  
 /*Sobre o Tema*/

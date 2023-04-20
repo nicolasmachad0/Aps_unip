@@ -137,20 +137,13 @@ a:hover,
 
 .container {
     display: flex;
+    justify-content: center;
 }
 
 .box1 {
     height: 300px;
-    width: 980px;
-    background-color: blue;
-    margin: 40px 40px 200px 100px;
-}
-
-.box2 {
-    height: 300px;
     width: 500px;
-    background-color: red;
-    margin: 40px 40px 0px 0px;
+    margin: 40px 40px 100px 100px;
 }
 
 .box1 p {
@@ -159,12 +152,21 @@ a:hover,
     font-size: 20px;
 }
 
+.box1 button{
+    
+}
+
+.box2 {
+    height: 300px;
+    width: 500px;
+    margin: 40px 40px 0px 0px;
+}
+
 .box2 img {
     height: 300px;
     margin-left: 50px;
 }
  
-
 /*Sobre o Tema*/
 
 /*Integrantes*/

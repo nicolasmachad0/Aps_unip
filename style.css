@@ -124,7 +124,7 @@ a:hover,
 /*Sobre o Tema*/
 
 .sobre {
-    height: 600px;
+    height: 580px;
     background-color: #FCFAF8;
     font-family: 'Poppins', sans-serif;
 
@@ -135,22 +135,32 @@ a:hover,
     padding: 30px;
 }
 
-.texto-sobre {
-    height: 400px;
-    width: 400px;
-    margin: 30px 800px 0px 200px;
-    background-color: #00FF0A;
-
+.container {
+    display: flex;
 }
 
-p {
+.box1 {
+    height: 300px;
+    width: 980px;
+    background-color: blue;
+    margin: 40px 100px 200px 100px;
+}
+
+.box2 {
+    height: 300px;
+    width: 800px;
+    background-color: red;
+}
+
+.box1 p {
     font-family: 'Poppins', sans-serif;
     text-align: center;
     font-size: 20px;
 }
 
-.texto-sobre img{
-    display: flex;
+.box2 img {
+    height: 350px;
+    margin-left: 50px;
 }
  
 

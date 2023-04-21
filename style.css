@@ -202,4 +202,24 @@ a:hover,
     margin-left: 50px;
 }
 
+.container-2{
+    display: flex;
+}
+
+.box-2{
+    margin-left: 250px;
+    margin-top: 50px;
+}
+
+.box-2 ul{
+    list-style: none;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+
+}
+
+
+
 /*Integrantes*/

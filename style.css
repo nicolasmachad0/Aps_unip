@@ -178,7 +178,6 @@ a:hover,
     height: 300px;
     margin-left: 20px;
 }
- 
 /*Sobre o Tema*/
 
 /*Integrantes*/
@@ -186,6 +185,21 @@ a:hover,
 .integrantes {
     height: 400px;
     background-color: #191919;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.integrantes h1{
+    text-align: center;
+    padding: 30px;
+    color: white;
+}
+
+.integrantes img{
+    height: 150px;
+    width: 500px;
+    margin-top: 20px;
+    margin-left: 50px;
 }
 
 /*Integrantes*/

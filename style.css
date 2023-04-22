@@ -153,7 +153,7 @@ a:hover,
     padding: 25px;
 }
 
-.box1 a{
+.box1 a {
     margin: 10px 0px 0px 220px;
     background-color: #49ff49;
     color: white;
@@ -163,7 +163,7 @@ a:hover,
     transition: 0.5s;
 }
 
-.box1 a:hover{
+.box1 a:hover {
     background-color: transparent;
     border: 2px solid #49ff49;
 }
@@ -172,16 +172,49 @@ a:hover,
     height: 300px;
     width: 500px;
     margin: 40px 40px 0px 0px;
-    transform: translateX(0);
-    transition: transform 0.5s ease-in-out;
+    
     overflow: hidden;
 }
 
 .box2 img {
     object-fit: cover;
     height: 300px;
+    width: 450px;
     margin-left: 20px;
+    animation: animacao infinite 20s;
+    opacity: 0;
+    position: absolute;
+    border-radius: 12px;
+
 }
+
+@keyframes animacao {
+    25% {
+        opacity: 1;
+        transform: scale(1.1, 1.1);
+    }
+
+    50% {
+        opacity: 0;
+
+    }
+}
+
+.box2 img:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.box2 img:nth-child(2) {
+    animation-delay: 5s;
+}
+.box2 img:nth-child(3) {
+    animation-delay: 10s;
+}
+
+.box2 img:nth-child(4) {
+    animation-delay: 15s;
+}
+
 /*Sobre o Tema*/
 
 /*Integrantes*/
@@ -193,29 +226,29 @@ a:hover,
 
 }
 
-.integrantes h1{
+.integrantes h1 {
     text-align: center;
     padding: 30px;
     color: white;
 }
 
-.integrantes img{
+.integrantes img {
     height: 150px;
     width: 500px;
     margin-top: 20px;
     margin-left: 50px;
 }
 
-.container-2{
+.container-2 {
     display: flex;
 }
 
-.box-2{
+.box-2 {
     margin-left: 250px;
     margin-top: 50px;
 }
 
-.box-2 ul{
+.box-2 ul {
     list-style: none;
     color: white;
     font-size: 20px;
@@ -224,7 +257,7 @@ a:hover,
 
 }
 
-.integrantes p{
+.integrantes p {
     text-align: center;
     color: white;
     margin-top: 40px;

@@ -358,8 +358,23 @@ a:hover,
     }
 
     .conteudos {
-        margin: 0px 0px 0px 0px;
-        gap: 10px;
+        margin: 0px 0px 0px 10px;
+        gap: 0px;
+    }
+
+    .conteudos p {
+        margin-top: 15px;
+        font-size: 17px;
+    }
+
+    .informacoes button {
+        margin-left: 30px;
+        height: 71px;
+        width: 73px;
+    }
+
+    img {
+        height: 40px;
     }
 
     .caixa-texto {
@@ -401,15 +416,6 @@ a:hover,
 
     }
 
-    .informacoes button {
-        height: 80px;
-        width: 82px;
-    }
-
-    img {
-        height: 50px;
-    }
-
     .container-2 {
         display: block
     }
@@ -425,3 +431,4 @@ a:hover,
         font-size: 10px;
         padding: 0;
     }
+}

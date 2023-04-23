@@ -172,7 +172,7 @@ a:hover,
     height: 300px;
     width: 500px;
     margin: 40px 40px 0px 0px;
-    
+
     overflow: hidden;
 }
 
@@ -207,6 +207,7 @@ a:hover,
 .box2 img:nth-child(2) {
     animation-delay: 5s;
 }
+
 .box2 img:nth-child(3) {
     animation-delay: 10s;
 }
@@ -264,3 +265,72 @@ a:hover,
 }
 
 /*Integrantes*/
+
+@media screen and (max-width: 768px) {
+    header {
+        width: 100%;
+        padding: 0;
+    }
+
+    .navegacao {
+        font-size: 15px;
+    }
+
+
+    .caixa-titulo {
+        margin-left: 20px;
+        margin-top: 200px;
+    }
+
+    .conteudos {
+        margin: 0px 0px 0px 90px;
+        gap: 45px
+    }
+
+    .caixa-texto {
+        width: 400px;
+        margin-left: 150px;
+    }
+
+    .caixa-texto p {
+        font-size: 15px;
+
+
+    }
+
+    .box1 p {
+        font-size: 14px;
+    }
+
+    .box1 a {
+        margin: 10px 0px 0px 80px;
+    }
+
+    .box2 img {
+        height: 142px;
+        width: 208px;
+        margin-top: 40px;
+    }
+
+    .integrantes img {
+        height: 110px;
+        width: 300px;
+    }
+
+    .box-2 {
+        margin-left: 80px;
+    }
+
+    .box-2 ul {
+        font-size: 12px;
+        padding: 0;
+    }
+}
+
+
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color: red;
+    }
+}

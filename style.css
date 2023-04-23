@@ -284,12 +284,12 @@ a:hover,
 
     .conteudos {
         margin: 0px 0px 0px 90px;
-        gap: 45px
+        gap: 82px;
     }
 
     .caixa-texto {
         width: 400px;
-        margin-left: 150px;
+        margin-left: 170px;
     }
 
     .caixa-texto p {
@@ -300,6 +300,7 @@ a:hover,
 
     .box1 p {
         font-size: 14px;
+
     }
 
     .box1 a {
@@ -369,6 +370,7 @@ a:hover,
 
     .caixa-texto p {
         font-size: 13px;
+
     }
 
     .box1 {
@@ -380,7 +382,46 @@ a:hover,
 
     .box1 p {
         font-size: 14px;
-        width: 300px
+        width: 300px;
+        margin-left: -20px;
     }
 
-}
+    .box1 a {
+        margin: 10px 0px 0px 80px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box2 {
+
+        margin: -146px 0px 0px 60px;
+
+    }
+
+    .informacoes button {
+        height: 80px;
+        width: 82px;
+    }
+
+    img {
+        height: 50px;
+    }
+
+    .container-2 {
+        display: block
+    }
+
+    .integrantes img {
+        height: 60px;
+        width: 200px;
+        margin-left: 88px;
+    }
+
+    .box-2 ul {
+        margin-right: 75px;
+        font-size: 10px;
+        padding: 0;
+    }

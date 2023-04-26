@@ -1,0 +1,121 @@
+* {
+    box-sizing: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*CAPA*/
+
+header {
+    height: calc(118vh - 110px);
+    background: no-repeat center/cover url("./Assets/Capa_site.jpg")
+}
+
+.navegacao {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover,
+.active {
+    color: #49ff49 !important;
+}
+
+.caixa-titulo {
+    margin-left: 330px;
+    margin-top: 200px;
+    animation: fadeIn 2s linear;
+}
+
+@keyframes fadeIn {
+
+    /*transição FADE*/
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.caixa-titulo h1 {
+    color: #00FF0A;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 80px;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.caixa-titulo h3 {
+    color: white;
+    margin-left: 140px;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*capa*/
+
+.informacoes {
+    font-family: 'Poppins', sans-serif;
+    height: 600px;
+    background-color: white;
+}
+
+.informacoes h1 {
+    text-align: center;
+    padding: 30px;
+}
+
+.conteudos {
+    display: flex;
+    list-style: none;
+    gap: 100px;
+    margin: 0px 0px 0px 370px;
+}
+
+.conteudos li {
+    display: grid;
+}
+
+.conteudos p {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.informacoes button {
+    font-family: 'Poppins', sans-serif;
+    height: 130px;
+    width: 130px;
+    border-radius: 200px;
+    background-color: white;
+    border: 1px solid #dbd4d4;
+    cursor: pointer;
+
+}
+
+.caixa-texto {
+    height: 200px;
+    margin: 50px 200px 0px 200px;
+    background-color: rgb(255, 255, 255);
+}
+
+.caixa-texto p {
+    text-align: center;
+    font-size: 20px;
+} 
+
+/*Inicio*/
+

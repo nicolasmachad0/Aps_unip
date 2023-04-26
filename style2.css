@@ -195,17 +195,51 @@ a:hover,
 .caixa-texto2 {
     height: 200px; /*Integrantes*/
     margin: 50px 200px 0px 200px; /*Integrantes*/
-    background-color: #FCFAF8; /*Integrantes*/
+    background-color: white; /*Integrantes*/
 } 
 
 .caixa-texto2 p {
     text-align: center; /*Integrantes*/
     font-size: 20px; /*Integrantes*/
 }
-
-
-
 /*Conteudo*/
+
+/*Sobre*/
+
+.sobre{
+    height: 700px;
+    background-color: #FCFAF8;
+    font-family: 'Poppins', sans-serif; /*Integrantes*/
+
+}
+
+.sobre h1 {
+    text-align: center; /*Integrantes*/
+    padding: 30px; /*Integrantes*/
+}
+
+.sobre h2{
+    text-align: center;
+    font-size: 20px;
+}
+
+/*Sobre*/
+
+/*considerações*/
+
+.consideracoes{
+    height: 700px;
+    font-family: 'Poppins', sans-serif; /*Integrantes*/
+
+}
+
+.consideracoes h1 {
+    text-align: center; /*Integrantes*/
+    padding: 30px; /*Integrantes*/
+    
+/*considerações*/
+}
+
 
 /*Integrantes*/
 

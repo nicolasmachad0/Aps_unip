@@ -125,7 +125,7 @@ a:hover,
 
 .sobre {
     height: 580px;
-    background-color: #FCFAF8;
+    background-color: rgb(255, 255, 255);
     font-family: 'Poppins', sans-serif;
 
 }
@@ -153,19 +153,22 @@ a:hover,
     padding: 25px;
 }
 
-.box1 a {
+.box1 button {
     margin: 10px 0px 0px 220px;
     background-color: #49ff49;
     color: white;
-    padding: 10px 20px;
+    padding: 15px 30px;
     border-radius: 25px;
     cursor: pointer;
     transition: 0.5s;
+    font-size: 20px;
+    border: none;
 }
 
-.box1 a:hover {
+.box1 button:hover {
     background-color: transparent;
     border: 2px solid #49ff49;
+    color: #191919;
 }
 
 .box2 {
@@ -218,6 +221,196 @@ a:hover,
 
 /*Sobre o Tema*/
 
+
+/*pagina2*/
+
+.container-b{
+    display: none;
+    height: 4300px;
+}
+
+/*Inicio*/
+
+.informacoes {
+    font-family: 'Poppins', sans-serif; /*Integrantes*/
+    height: 600px; /*Integrantes*/
+    background-color: #FCFAF8; /*Integrantes*/
+}
+
+.informacoes h1 {
+    text-align: center; /*Integrantes*/
+    padding: 30px; /*Integrantes*/
+}
+
+.conteudos {
+    display: flex; /*Integrantes*/
+    list-style: none; /*Integrantes*/
+    gap: 100px; /*Integrantes*/
+    margin: 0px 0px 0px 370px; /*Integrantes*/
+}
+
+.conteudos li {
+    display: grid; /*Integrantes*/
+}
+
+.conteudos p {
+    font-family: 'Poppins', sans-serif; /*Integrantes*/
+    text-align: center; /*Integrantes*/
+    margin-top: 20px; /*Integrantes*/
+}
+
+.informacoes button {
+    font-family: 'Poppins', sans-serif; /*Integrantes*/
+    height: 130px; /*Integrantes*/
+    width: 130px; /*Integrantes*/
+    border-radius: 200px; /*Integrantes*/
+    background-color: #FCFAF8; /*Integrantes*/
+    border: 1px solid #dbd4d4; /*Integrantes*/
+    cursor: pointer; /*Integrantes*/
+
+}
+
+.caixa-texto {
+    height: 200px; /*Integrantes*/
+    margin: 50px 200px 0px 200px; /*Integrantes*/
+    background-color: #FCFAF8; /*Integrantes*/
+} 
+
+.caixa-texto p {
+    text-align: center; /*Integrantes*/
+    font-size: 20px; /*Integrantes*/
+}
+
+/*Inicio*/
+
+/*Conteudo*/
+
+.trabalho {
+    height: 1700px; /*Integrantes*/
+    background-color: white; /*Integrantes*/
+    font-family: 'Poppins', sans-serif; /*Integrantes*/
+}
+
+.trabalho h1 {
+    text-align: center; /*Integrantes*/
+    padding: 30px; /*Integrantes*/
+}
+
+.trabalho h2{
+    margin-left: 110px; /*Integrantes*/
+}
+
+.trabalho p {
+
+    text-align: left; /*Integrantes*/
+    font-size: 20px; /*Integrantes*/
+    Vertical-align: Top; /*Integrantes*/
+    margin-left: 110px; /*Integrantes*/
+    margin-right: 110px; /*Integrantes*/
+}
+
+.trabalho .p2{
+    
+    text-align: center; /*Integrantes*/
+    margin-top: 30px; /*Integrantes*/
+}
+
+.informacoes2 {
+    font-family: 'Poppins', sans-serif; /*Integrantes*/
+    height: 600px; /*Integrantes*/
+    background-color: white; /*Integrantes*/
+}
+
+.informacoes2 h1 {
+    text-align: center; /*Integrantes*/
+    padding: 30px; /*Integrantes*/
+}
+
+.conteudos2 {
+    display: flex; /*Integrantes*/
+    list-style: none; /*Integrantes*/
+    gap: 100px; /*Integrantes*/
+    margin: 0px 0px 0px 370px; /*Integrantes*/
+}
+
+.conteudos2 li {
+    display: grid; /*Integrantes*/
+}
+
+.conteudos2 p {
+    font-family: 'Poppins', sans-serif; /*Integrantes*/
+    text-align: center; /*Integrantes*/
+    margin-top: 20px; /*Integrantes*/
+}
+
+.informacoes2 button {
+    font-family: 'Poppins', sans-serif; /*Integrantes*/
+    height: 130px; /*Integrantes*/
+    width: 130px; /*Integrantes*/
+    border-radius: 200px; /*Integrantes*/
+    background-color: white; /*Integrantes*/
+    border: 1px solid #dbd4d4; /*Integrantes*/
+    cursor: pointer; /*Integrantes*/
+
+}
+
+.caixa-texto2 {
+    height: 200px; /*Integrantes*/
+    margin: 50px 200px 0px 200px; /*Integrantes*/
+    background-color: white; /*Integrantes*/
+} 
+
+.caixa-texto2 p {
+    text-align: center; /*Integrantes*/
+    font-size: 20px; /*Integrantes*/
+}
+/*Conteudo*/
+
+/*Sobre*/
+
+.sobre{
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif; /*Integrantes*/
+
+}
+
+.sobre h1 {
+    text-align: center; /*Integrantes*/
+    padding: 30px; /*Integrantes*/
+}
+
+.sobre h2{
+    text-align: center;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.listas {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+/*Sobre*/
+
+/*considerações*/
+
+.consideracoes{
+    height: 700px;
+    font-family: 'Poppins', sans-serif; /*Integrantes*/
+
+}
+
+.consideracoes h1 {
+    text-align: center; /*Integrantes*/
+    padding: 30px; /*Integrantes*/
+    
+/*considerações*/
+}
+
+/*pagina2*/
+
 /*Integrantes*/
 
 .integrantes {
@@ -264,6 +457,7 @@ a:hover,
     margin-top: 40px;
 }
 
+
 /*Integrantes*/
 
 @media screen and (max-width: 768px) {
@@ -303,8 +497,9 @@ a:hover,
 
     }
 
-    .box1 a {
-        margin: 10px 0px 0px 80px;
+    .box1 button {
+        margin: 10px 0px 0px 70px;
+        height: 50px;
     }
 
     .box2 img {

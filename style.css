@@ -349,7 +349,7 @@ a:hover,
 
     text-align: center;
     /*Integrantes*/
-    margin-top: 30px;
+    margin-top: 10px;
     /*Integrantes*/
 }
 
@@ -622,14 +622,14 @@ a:hover,
         margin-left: 0px;
     }
 
-    .informacoes{
+    .informacoes {
         height: 500px;
     }
 
     .conteudos {
         margin: 0px 0px 0px 30px;
         gap: 0px;
-        
+
     }
 
     .conteudos p {
@@ -703,12 +703,12 @@ a:hover,
         padding: 0;
     }
 
-    .container-b{
-        height: 7000px;
+    .container-b {
+        height: 5720px;
     }
 
     .trabalho {
-        height: 3050px;
+        height: 3150px;
     }
 
     .trabalho h2 {
@@ -720,11 +720,11 @@ a:hover,
     .trabalho p {
         font-size: 15px;
         text-align: center;
-        margin: 10px;
-        padding: 5px;
-    }
+        margin: 0px;
+        padding: 0 25px 0 25px;
+        }
 
-    .informacoes2{
+    .informacoes2 {
         height: 550px;
     }
 
@@ -738,22 +738,46 @@ a:hover,
         gap: 0;
         margin-left: 20px;
     }
-    
-    .caixa-texto2{
-        margin: 30px;
+
+    .caixa-texto2 {
+        margin: 35px;
 
     }
 
-    .caixa-texto2 p{
-        font-size: 15px;
+    .caixa-texto2 p {
+        font-size: 14.5px;
     }
-    
-    .conteudos2 p{
+
+    .conteudos2 p {
         font-size: 15px;
         margin-left: 5px;
     }
 
-    .unimed{
-     height: 25px;
+    .unimed {
+        height: 25px;
     }
+
+    /*Como esse tema contribui*/
+
+    .sobre2{
+        height: 800px;
+    }
+
+    .sobre2 h1 {
+        font-size: 25px;
+    }
+
+    .sobre2 h2{
+        font-size: 15px;
+        margin: 5px;
+    }
+
+    .sobre2 ul{
+        margin: 10px;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    /*Como esse tema contribui*/
+
 }

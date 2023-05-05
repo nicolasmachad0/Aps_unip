@@ -675,6 +675,12 @@ a:hover,
     .box1 a {
         margin: 10px 0px 0px 80px;
     }
+    
+    .box1 button{
+        margin: 0px 0px 0px 70px;
+    }
+
+
 
     .container {
         display: flex;
@@ -683,7 +689,7 @@ a:hover,
 
     .box2 {
 
-        margin: -146px 0px 0px 60px;
+        margin: -146px 0px 0px 90px;
 
     }
 

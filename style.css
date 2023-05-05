@@ -181,9 +181,9 @@ a:hover,
 
 .box2 img {
     object-fit: cover;
-    height: 300px;
-    width: 450px;
-    margin-left: 20px;
+    height: 280px;
+    width: 420px;
+    margin-left: 0px;
     animation: animacao infinite 20s;
     opacity: 0;
     position: absolute;

@@ -557,10 +557,11 @@ a:hover,
     }
 
     .caixa-texto p {
-        font-size: 15px;
-
-
+        font-size: 14px;
+        width: 300px;
+        margin-left: -20px;
     }
+
 
     .box1 p {
         font-size: 14px;
@@ -593,7 +594,7 @@ a:hover,
     }
 }
 
-
+/*CELULAR*/
 
 @media screen and (max-width: 600px) {
     .navegacao {
@@ -627,14 +628,14 @@ a:hover,
     }
 
     .conteudos {
-        margin: 0px 0px 0px 30px;
+        margin: 0px 0px 0px 0px;
         gap: 0px;
 
     }
 
     .conteudos p {
         margin-top: 15px;
-        font-size: 15px;
+        font-size: 12px;
         margin-left: 6px;
     }
 
@@ -675,8 +676,8 @@ a:hover,
     .box1 a {
         margin: 10px 0px 0px 80px;
     }
-    
-    .box1 button{
+
+    .box1 button {
         margin: 0px 0px 0px 70px;
     }
 
@@ -728,7 +729,7 @@ a:hover,
         text-align: center;
         margin: 0px;
         padding: 0 25px 0 25px;
-        }
+    }
 
     .informacoes2 {
         height: 550px;
@@ -755,7 +756,7 @@ a:hover,
     }
 
     .conteudos2 p {
-        font-size: 15px;
+        font-size: 13px;
         margin-left: 5px;
     }
 
@@ -765,7 +766,7 @@ a:hover,
 
     /*Como esse tema contribui*/
 
-    .sobre2{
+    .sobre2 {
         height: 800px;
     }
 
@@ -773,12 +774,12 @@ a:hover,
         font-size: 25px;
     }
 
-    .sobre2 h2{
+    .sobre2 h2 {
         font-size: 15px;
         margin: 5px;
     }
 
-    .sobre2 ul{
+    .sobre2 ul {
         margin: 10px;
         font-size: 15px;
         text-align: center;
@@ -787,3 +788,5 @@ a:hover,
     /*Como esse tema contribui*/
 
 }
+
+/*CELULAR*/

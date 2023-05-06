@@ -1,27 +1,27 @@
 function trocaTexto1() {
   var texto = document.getElementById("meuTexto");
   if (texto.innerHTML === "Texto inicial") {
-    texto.innerHTML = "O meio ambiente refere-se ao conjunto de fatores físicos, biológicos e químicos que cerca os seres vivos, influenciando-os e sendo influenciado por eles. Pode ser entendido também como o conjunto de condições que permitem abrigar e reger a vida em todas as suas formas - os ecossistemas que existem na Terra. Wikipédia";
+    texto.innerHTML = "O meio ambiente nos fornece todos os recursos que precisamos para a nossa sobrevivência, e para que ele continue fazendo isso, nós precisamos cuidar do planeta que vivemos.";
   } else {
-    texto.innerHTML = "O meio ambiente refere-se ao conjunto de fatores físicos, biológicos e químicos que cerca os seres vivos, influenciando-os e sendo influenciado por eles. Pode ser entendido também como o conjunto de condições que permitem abrigar e reger a vida em todas as suas formas - os ecossistemas que existem na Terra. Wikipédia";
+    texto.innerHTML = "O meio ambiente nos fornece todos os recursos que precisamos para a nossa sobrevivência, e para que ele continue fazendo isso, nós precisamos cuidar do planeta que vivemos.";
   }
 }
 
 function trocaTexto2() {
   var texto = document.getElementById("meuTexto");
   if (texto.innerHTML === ".") {
-    texto.innerHTML = "Sustentabilidade é uma característica ou condição de um processo ou de um sistema que permite a sua permanência, em certo nível, por um determinado prazo.";
+    texto.innerHTML = "Sustentabilidade é a busca pelo equilíbrio entre o suprimento das necessidades humanas e preservação dos recursos naturais, não comprometendo as próximas gerações.";
   } else {
-    texto.innerHTML = "Sustentabilidade é uma característica ou condição de um processo ou de um sistema que permite a sua permanência, em certo nível, por um determinado prazo.";
+    texto.innerHTML = "Sustentabilidade é a busca pelo equilíbrio entre o suprimento das necessidades humanas e preservação dos recursos naturais, não comprometendo as próximas gerações.";
   }
 }
 
 function trocaTexto3() {
   var texto = document.getElementById("meuTexto");
   if (texto.innerHTML === ".") {
-    texto.innerHTML = "De acordo com o Ministério do Meio Ambiente, o consumo sustentável implica na escolha de produtos que: Utilizaram menos recursos naturais em sua produção. Garantam emprego decente aos que os produziram. São facilmente reaproveitados ou reciclados.";
+    texto.innerHTML = "Refere à redução da quantidade de recursos naturais e materiais utilizados pelos indivíduos e pela sociedade como um todo. .";
   } else {
-    texto.innerHTML = "De acordo com o Ministério do Meio Ambiente, o consumo sustentável implica na escolha de produtos que: Utilizaram menos recursos naturais em sua produção. Garantam emprego decente aos que os produziram. São facilmente reaproveitados ou reciclados.";
+    texto.innerHTML = "Refere à redução da quantidade de recursos naturais e materiais utilizados pelos indivíduos e pela sociedade como um todo.";
   }
 }
 
@@ -37,9 +37,9 @@ function trocaTexto4() {
 function trocaTexto5() {
   var texto = document.getElementById("meuTexto2");
   if (texto.innerHTML === ".") {
-      texto.innerHTML = "Sustentabilidade é uma característica ou condição de um processo ou de um sistema que permite a sua permanência, em certo nível, por um determinado prazo.";
+      texto.innerHTML = "A compreensão da importância do papel da sustentabilidade no meio ambiente é fundamental e já está sendo colocada em prática pela população e grande parte das empresas, que buscam minimizar o impacto de suas ações na natureza por meio da reciclagem de seus materiais e a utilização de fontes renováveis de energia.";
   } else {
-      texto.innerHTML = "Sustentabilidade é uma característica ou condição de um processo ou de um sistema que permite a sua permanência, em certo nível, por um determinado prazo.";
+      texto.innerHTML = "A compreensão da importância do papel da sustentabilidade no meio ambiente é fundamental e já está sendo colocada em prática pela população e grande parte das empresas, que buscam minimizar o impacto de suas ações na natureza por meio da reciclagem de seus materiais e a utilização de fontes renováveis de energia.";
   }
 }
 

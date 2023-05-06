@@ -531,6 +531,8 @@ a:hover,
 /*Integrantes*/
 
 @media screen and (max-width: 768px) {
+
+
     header {
         width: 100%;
         padding: 0;
@@ -597,6 +599,30 @@ a:hover,
 /*CELULAR*/
 
 @media screen and (max-width: 600px) {
+
+    header nav ul {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        z-index: 99;
+        background: #00FF0A;
+        color: white;
+        font-weight: bold;
+        height: 55px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header nav p {
+        width: 100%;
+        text-align: center;
+    }
+
+
     .navegacao {
         text-align: center;
     }

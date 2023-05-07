@@ -310,7 +310,7 @@ a:hover,
 /*Conteudo*/
 
 .trabalho {
-    height: 1700px;
+    height: 1800px;
     /*Integrantes*/
     background-color: white;
     /*Integrantes*/
@@ -332,7 +332,7 @@ a:hover,
 
 .trabalho p {
 
-    text-align: left;
+    text-align: justify;
     /*Integrantes*/
     font-size: 20px;
     /*Integrantes*/
@@ -456,6 +456,7 @@ a:hover,
 .listas {
     margin-left: 150px;
     margin-right: 150px;
+    text-align: justify;
 }
 
 /*Sobre2*/
@@ -768,7 +769,7 @@ a:hover,
     }
 
     .trabalho {
-        height: 2700px;
+        height: 2950px;
     }
 
     .trabalho h2 {
@@ -788,8 +789,18 @@ a:hover,
         height: 550px;
     }
 
+    .conteudos2 li {
+        width: 140px;
+    }
+
+    .conteudos2 p {
+        margin-top: 15px;
+        font-size: 12px;
+        margin-left: 0px;
+    }
+
     .informacoes2 button {
-        margin-left: 40px;
+        margin-left: 30px;
         height: 71px;
         width: 73px;
     }
@@ -839,9 +850,10 @@ a:hover,
     /*Considerações Finais*/
 
     .consideracoes p {
-        font-size: 17px;
-        width: 300px;
+        font-size: 15px;
         text-align: center;
+        margin: 0px;
+        padding: 0 50px 0 50px;
     }
 
     /*Considerações Finais*/

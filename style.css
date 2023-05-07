@@ -815,7 +815,7 @@ a:hover,
     /*Como esse tema contribui*/
 
     .sobre2 {
-        height: 800px;
+        height: 840px;
     }
 
     .sobre2 h1 {
@@ -824,13 +824,14 @@ a:hover,
 
     .sobre2 h2 {
         font-size: 15px;
-        margin: 5px;
+        margin: 20px;
     }
 
     .sobre2 ul {
-        margin: 10px;
+        margin: 40px;
         font-size: 15px;
         text-align: center;
+        list-style: none;
     }
 
     /*Como esse tema contribui*/

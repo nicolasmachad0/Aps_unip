@@ -56,9 +56,9 @@ function trocaTexto6() {
 function trocaTexto7() {
   var texto = document.getElementById("meuTexto3");
   if (texto.innerHTML === "Texto inicial") {
-      texto.innerHTML = "Desde fevereiro de 2020, a sede da Secretaria do Meio Ambiente e Sustentabilidade é ponto de entrega voluntária de lixo eletrônico em Sorocaba. O coletor metálico instalado na entrada da Secretaria do Meio Ambiente recebe resíduos com dimensões máximas de 30 cm de altura e 60 cm de largura. Lâmpadas fluorescentes não estão incluídas. Todo o material é recolhido e transportado por empresas certificadas e homologadas, que fazem a reciclagem e destinação correta do lixo eletrônico.";
+      texto.innerHTML = "Desde fevereiro de 2020, a sede da Secretaria do Meio Ambiente e Sustentabilidade é ponto de entrega voluntária de lixo eletrônico em Sorocaba. Todo o material é recolhido e transportado por empresas certificadas e homologadas, que fazem a reciclagem e destinação correta do lixo eletrônico.";
   } else {
-      texto.innerHTML = "Desde fevereiro de 2020, a sede da Secretaria do Meio Ambiente e Sustentabilidade é ponto de entrega voluntária de lixo eletrônico em Sorocaba. O coletor metálico instalado na entrada da Secretaria do Meio Ambiente recebe resíduos com dimensões máximas de 30 cm de altura e 60 cm de largura. Lâmpadas fluorescentes não estão incluídas. Todo o material é recolhido e transportado por empresas certificadas e homologadas, que fazem a reciclagem e destinação correta do lixo eletrônico.";
+      texto.innerHTML = "Desde fevereiro de 2020, a sede da Secretaria do Meio Ambiente e Sustentabilidade é ponto de entrega voluntária de lixo eletrônico em Sorocaba. Todo o material é recolhido e transportado por empresas certificadas e homologadas, que fazem a reciclagem e destinação correta do lixo eletrônico.";
   }
 }
 

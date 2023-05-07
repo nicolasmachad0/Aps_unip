@@ -226,7 +226,6 @@ a:hover,
 
 .container-b {
     display: none;
-    height: 4300px;
 }
 
 /*Inicio*/
@@ -474,11 +473,23 @@ a:hover,
     text-align: center;
     /*Integrantes*/
     padding: 30px;
-    /*Integrantes*/
-
-    /*considerações*/
+    /*Integrantes*/ 
 }
 
+.consideracoes p{
+    text-align: left;
+    /*Integrantes*/
+    font-size: 20px;
+    /*Integrantes*/
+    Vertical-align: Top;
+    /*Integrantes*/
+    margin-left: 110px;
+    /*Integrantes*/
+    margin-right: 110px;
+    /*Integrantes*/
+}
+
+/*considerações*/
 /*pagina2*/
 
 /*Integrantes*/

@@ -432,7 +432,7 @@ a:hover,
 /*Sobre2*/
 
 .sobre2 {
-    height: 600px;
+    height: 700px;
     background-color: #FCFAF8;
     font-family: 'Poppins', sans-serif;
     /*Integrantes*/
@@ -765,11 +765,11 @@ a:hover,
     /*>>>>>>>Segunda Pagina<<<<<*/
 
     .container-b {
-        height: 5720px;
+        height: 5200px;
     }
 
     .trabalho {
-        height: 2950px;
+        height: 2930px;
     }
 
     .trabalho h2 {

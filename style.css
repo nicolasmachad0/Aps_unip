@@ -139,13 +139,12 @@ a:hover,
 
 .container {
     display: flex;
-    justify-content: center;
 }
 
 .box1 {
     height: 400px;
     width: 600px;
-    margin: 30px 40px 100px 70px;
+    margin: 30px 20px 0px 115px;
 }
 
 .box1 p {
@@ -159,7 +158,7 @@ a:hover,
     margin: 10px 0px 0px 220px;
     background-color: #49ff49;
     color: white;
-    padding: 15px 30px;
+    padding: 10px 30px;
     border-radius: 25px;
     cursor: pointer;
     transition: 0.5s;
@@ -175,9 +174,8 @@ a:hover,
 
 .box2 {
     height: 300px;
-    width: 500px;
+    width: 0px;
     margin: 40px 40px 0px 0px;
-
     overflow: hidden;
 }
 
@@ -532,6 +530,9 @@ a:hover,
 
 /*Integrantes*/
 
+
+
+
 @media screen and (max-width: 768px) {
 
 
@@ -617,7 +618,12 @@ a:hover,
         display: flex;
         justify-content: space-between;
         align-items: center;
-        font-size: 7px;
+
+    }
+
+    header li {
+        font-size: 15px;
+        margin-right: 30px;
     }
 
     header nav p {
@@ -625,6 +631,7 @@ a:hover,
         text-align: center;
     }
 
+    /*Informações Iniciais*/
 
     .navegacao {
         text-align: center;
@@ -657,7 +664,6 @@ a:hover,
     }
 
     .conteudos {
-        margin: 0px 0px 0px 0px;
         gap: 0px;
 
     }
@@ -665,8 +671,10 @@ a:hover,
     .conteudos p {
         margin-top: 15px;
         font-size: 12px;
-        margin-left: 6px;
+        margin-left: 0px;
     }
+
+
 
     .informacoes button {
         margin-left: 30px;
@@ -678,6 +686,9 @@ a:hover,
         height: 40px;
     }
 
+    /*Informações Iniciais*/
+
+
     .caixa-texto {
         margin-left: 35px;
         width: 315px;
@@ -686,12 +697,13 @@ a:hover,
 
     .caixa-texto p {
         font-size: 13px;
+        margin-left: 60px;
 
     }
 
     .box1 {
         height: 400px;
-        width: 500px;
+        width: 0;
         margin: 0px 10px 10px 30px;
 
     }
@@ -699,18 +711,14 @@ a:hover,
     .box1 p {
         font-size: 14px;
         width: 300px;
-        margin-left: -20px;
+        margin-left: 50px;
     }
 
-    .box1 a {
-        margin: 10px 0px 0px 80px;
-    }
 
     .box1 button {
-        margin: 0px 0px 0px 70px;
+        margin: 0px 0px 0px 120px;
+        width: 190px;
     }
-
-
 
     .container {
         display: flex;
@@ -719,32 +727,18 @@ a:hover,
 
     .box2 {
 
-        margin: -146px 0px 0px 85px;
+        margin: -146px 0px 0px 140px;
 
     }
 
-    .container-2 {
-        display: block
-    }
-
-    .integrantes img {
-        height: 60px;
-        width: 200px;
-        margin-left: 88px;
-    }
-
-    .box-2 ul {
-        margin-right: 75px;
-        font-size: 10px;
-        padding: 0;
-    }
+    /*Segunda Pagina*/
 
     .container-b {
         height: 5720px;
     }
 
     .trabalho {
-        height: 3150px;
+        height: 2700px;
     }
 
     .trabalho h2 {
@@ -757,7 +751,7 @@ a:hover,
         font-size: 15px;
         text-align: center;
         margin: 0px;
-        padding: 0 25px 0 25px;
+        padding: 0 50px 0 50px;
     }
 
     .informacoes2 {
@@ -765,14 +759,14 @@ a:hover,
     }
 
     .informacoes2 button {
-        margin-left: 30px;
+        margin-left: 40px;
         height: 71px;
         width: 73px;
     }
 
     .conteudos2 {
         gap: 0;
-        margin-left: 20px;
+        margin-left: 40px;
     }
 
     .caixa-texto2 {
@@ -784,10 +778,7 @@ a:hover,
         font-size: 14.5px;
     }
 
-    .conteudos2 p {
-        font-size: 13px;
-        margin-left: 5px;
-    }
+
 
     .unimed {
         height: 25px;
@@ -815,7 +806,28 @@ a:hover,
     }
 
     /*Como esse tema contribui*/
+    /*Segunda Pagina*/
 
+
+    /*INTEGRANTES*/
+
+    .container-2 {
+        display: block
+    }
+
+    .integrantes img {
+        height: 60px;
+        width: 200px;
+        margin-left: 140px;
+    }
+
+    .box-2 ul {
+        margin-right: 75px;
+        font-size: 10px;
+        padding: 0;
+    }
+
+    /*INTEGRANTES*/
 }
 
 /*CELULAR*/

@@ -473,10 +473,10 @@ a:hover,
     text-align: center;
     /*Integrantes*/
     padding: 30px;
-    /*Integrantes*/ 
+    /*Integrantes*/
 }
 
-.consideracoes p{
+.consideracoes p {
     text-align: left;
     /*Integrantes*/
     font-size: 20px;
@@ -834,6 +834,20 @@ a:hover,
     }
 
     /*Como esse tema contribui*/
+
+    /*Considerações Finais*/
+
+    
+
+    .consideracoes p {
+        font-size: 17px;
+        width: 300px;
+        text-align: center;
+    }
+
+    /*Considerações Finais*/
+
+
     /*Segunda Pagina*/
 
 

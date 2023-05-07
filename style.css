@@ -527,14 +527,14 @@ a:hover,
     margin-top: 40px;
 }
 
-
 /*Integrantes*/
 
 
-
+/*TABLET*/
 
 @media screen and (max-width: 768px) {
 
+    /*capa*/
 
     header {
         width: 100%;
@@ -551,6 +551,10 @@ a:hover,
         margin-top: 200px;
     }
 
+    /*capa*/
+
+    /*Informações Iniciais*/
+
     .conteudos {
         margin: 0px 0px 0px 90px;
         gap: 82px;
@@ -558,11 +562,11 @@ a:hover,
 
     .caixa-texto {
         width: 400px;
-        margin-left: 170px;
+        margin-left: 250px;
     }
 
     .caixa-texto p {
-        font-size: 14px;
+        font-size: 50px;
         width: 300px;
         margin-left: -20px;
     }
@@ -570,7 +574,6 @@ a:hover,
 
     .box1 p {
         font-size: 14px;
-
     }
 
     .box1 button {
@@ -583,6 +586,9 @@ a:hover,
         width: 208px;
         margin-top: 40px;
     }
+
+
+    /*INTEGRANTES*/
 
     .integrantes img {
         height: 110px;
@@ -597,11 +603,18 @@ a:hover,
         font-size: 12px;
         padding: 0;
     }
+
+    /*INTEGRANTES*/
+
 }
+
+/*TABLET*/
 
 /*CELULAR*/
 
 @media screen and (max-width: 600px) {
+
+    /*Barra de navegação*/
 
     header nav ul {
         position: fixed;
@@ -630,6 +643,8 @@ a:hover,
         width: 100%;
         text-align: center;
     }
+
+    /*Barra de navegação*/
 
     /*Informações Iniciais*/
 
@@ -689,6 +704,7 @@ a:hover,
     /*Informações Iniciais*/
 
 
+    /*Sobre o tema */
     .caixa-texto {
         margin-left: 35px;
         width: 315px;
@@ -730,6 +746,9 @@ a:hover,
         margin: -146px 0px 0px 140px;
 
     }
+
+    /*Sobre o tema */
+
 
     /*Segunda Pagina*/
 
@@ -777,8 +796,6 @@ a:hover,
     .caixa-texto2 p {
         font-size: 14.5px;
     }
-
-
 
     .unimed {
         height: 25px;

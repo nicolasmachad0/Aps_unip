@@ -310,7 +310,7 @@ a:hover,
 /*Conteudo*/
 
 .trabalho {
-    height: 1800px;
+    height: 2500px;
     /*Integrantes*/
     background-color: white;
     /*Integrantes*/
@@ -765,11 +765,11 @@ a:hover,
     /*>>>>>>>Segunda Pagina<<<<<*/
 
     .container-b {
-        height: 5200px;
+        height: 6020px;
     }
 
     .trabalho {
-        height: 2930px;
+        height: 4220px;
     }
 
     .trabalho h2 {
@@ -786,7 +786,7 @@ a:hover,
     }
 
     .informacoes2 {
-        height: 550px;
+        height: 350px;
     }
 
     .conteudos2 li {
@@ -826,7 +826,7 @@ a:hover,
     /*Como esse tema contribui*/
 
     .sobre2 {
-        height: 840px;
+        height: 1000px;
     }
 
     .sobre2 h1 {
@@ -846,17 +846,6 @@ a:hover,
     }
 
     /*Como esse tema contribui*/
-
-    /*Considerações Finais*/
-
-    .consideracoes p {
-        font-size: 15px;
-        text-align: center;
-        margin: 0px;
-        padding: 0 50px 0 50px;
-    }
-
-    /*Considerações Finais*/
 
     /*>>>>>>>Segunda Pagina<<<<<*/
 

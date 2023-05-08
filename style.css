@@ -232,77 +232,52 @@ a:hover,
 
 .informacoes {
     font-family: 'Poppins', sans-serif;
-    /*Integrantes*/
     height: 600px;
-    /*Integrantes*/
     background-color: #FCFAF8;
-    /*Integrantes*/
 }
 
 .informacoes h1 {
     text-align: center;
-    /*Integrantes*/
     padding: 30px;
-    /*Integrantes*/
 }
 
 .conteudos {
     display: flex;
-    /*Integrantes*/
     list-style: none;
-    /*Integrantes*/
     gap: 100px;
-    /*Integrantes*/
     margin: 0px 0px 0px 370px;
-    /*Integrantes*/
 }
 
 .conteudos li {
     display: grid;
-    /*Integrantes*/
 }
 
 .conteudos p {
     font-family: 'Poppins', sans-serif;
-    /*Integrantes*/
     text-align: center;
-    /*Integrantes*/
     margin-top: 20px;
-    /*Integrantes*/
 }
 
 .informacoes button {
     font-family: 'Poppins', sans-serif;
-    /*Integrantes*/
     height: 130px;
-    /*Integrantes*/
     width: 130px;
-    /*Integrantes*/
     border-radius: 200px;
-    /*Integrantes*/
     background-color: #FCFAF8;
-    /*Integrantes*/
     border: 1px solid #dbd4d4;
-    /*Integrantes*/
     cursor: pointer;
-    /*Integrantes*/
 
 }
 
 .caixa-texto {
     height: 200px;
-    /*Integrantes*/
     margin: 50px 200px 0px 200px;
-    /*Integrantes*/
     background-color: #FCFAF8;
-    /*Integrantes*/
 }
 
 .caixa-texto p {
     text-align: center;
-    /*Integrantes*/
     font-size: 20px;
-    /*Integrantes*/
 }
 
 /*Inicio*/
@@ -311,120 +286,82 @@ a:hover,
 
 .trabalho {
     height: 2500px;
-    /*Integrantes*/
     background-color: white;
-    /*Integrantes*/
     font-family: 'Poppins', sans-serif;
-    /*Integrantes*/
 }
 
 .trabalho h1 {
     text-align: center;
-    /*Integrantes*/
     padding: 30px;
-    /*Integrantes*/
 }
 
 .trabalho h2 {
     margin-left: 110px;
-    /*Integrantes*/
 }
 
 .trabalho p {
 
     text-align: justify;
-    /*Integrantes*/
     font-size: 20px;
-    /*Integrantes*/
     Vertical-align: Top;
-    /*Integrantes*/
     margin-left: 110px;
-    /*Integrantes*/
     margin-right: 110px;
-    /*Integrantes*/
 }
 
 .trabalho .p2 {
 
     text-align: center;
-    /*Integrantes*/
     margin-top: 10px;
-    /*Integrantes*/
 }
 
 .informacoes2 {
     font-family: 'Poppins', sans-serif;
-    /*Integrantes*/
     height: 600px;
-    /*Integrantes*/
     background-color: white;
-    /*Integrantes*/
 }
 
 .informacoes2 h1 {
     text-align: center;
-    /*Integrantes*/
     padding: 30px;
-    /*Integrantes*/
 }
 
 .conteudos2 {
     display: flex;
-    /*Integrantes*/
     list-style: none;
-    /*Integrantes*/
     gap: 100px;
-    /*Integrantes*/
     margin: 0px 0px 0px 370px;
-    /*Integrantes*/
 }
 
 .conteudos2 li {
     display: grid;
-    /*Integrantes*/
 }
 
 .conteudos2 p {
     font-family: 'Poppins', sans-serif;
-    /*Integrantes*/
     text-align: center;
-    /*Integrantes*/
     margin-top: 20px;
-    /*Integrantes*/
 }
 
 .informacoes2 button {
     font-family: 'Poppins', sans-serif;
-    /*Integrantes*/
     height: 130px;
-    /*Integrantes*/
     width: 130px;
-    /*Integrantes*/
     border-radius: 200px;
-    /*Integrantes*/
     background-color: white;
-    /*Integrantes*/
     border: 1px solid #dbd4d4;
-    /*Integrantes*/
     cursor: pointer;
-    /*Integrantes*/
 
 }
 
 .caixa-texto2 {
     height: 200px;
-    /*Integrantes*/
     margin: 50px 200px 0px 200px;
-    /*Integrantes*/
     background-color: white;
-    /*Integrantes*/
 }
 
 .caixa-texto2 p {
     text-align: center;
-    /*Integrantes*/
     font-size: 20px;
-    /*Integrantes*/
 }
 
 /*Conteudo*/
@@ -435,15 +372,12 @@ a:hover,
     height: 700px;
     background-color: #FCFAF8;
     font-family: 'Poppins', sans-serif;
-    /*Integrantes*/
 
 }
 
 .sobre2 h1 {
     text-align: center;
-    /*Integrantes*/
     padding: 30px;
-    /*Integrantes*/
 }
 
 .sobre2 h2 {
@@ -466,31 +400,24 @@ a:hover,
 .consideracoes {
     height: 700px;
     font-family: 'Poppins', sans-serif;
-    /*Integrantes*/
 
 }
 
 .consideracoes h1 {
     text-align: center;
-    /*Integrantes*/
     padding: 30px;
-    /*Integrantes*/
 }
 
 .consideracoes p {
     text-align: left;
-    /*Integrantes*/
     font-size: 20px;
-    /*Integrantes*/
     Vertical-align: Top;
-    /*Integrantes*/
     margin-left: 110px;
-    /*Integrantes*/
     margin-right: 110px;
-    /*Integrantes*/
 }
 
 /*considerações*/
+
 /*pagina2*/
 
 /*Integrantes*/

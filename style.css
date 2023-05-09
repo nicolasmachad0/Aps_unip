@@ -473,7 +473,7 @@ a:hover, .active {  /*muda cor do link ao arrastar o mouse*/
     .caixa-texto p { /*texto da caixa de texto do conteudos*/
         font-size: 50px; /*tamanho da fonte*/
         width: 300px; /*largura*/
-        margin-left: -20px; /*margem para esquerda*/
+        margin-left: 0px; /*margem para esquerda*/
     }
 
 
@@ -487,9 +487,9 @@ a:hover, .active {  /*muda cor do link ao arrastar o mouse*/
     }
 
     .box2 img { /*imagem da box de imagem*/
-        height: 142px; /*Altura*/
-        width: 208px; /*largura*/
-        margin-top: 40px; /*margem para cima*/
+        height: 130px; /*Altura*/
+        width: 195px; /*largura*/
+        margin-top: 60px; /*margem para cima*/
     }
 
 
@@ -623,7 +623,7 @@ a:hover, .active {  /*muda cor do link ao arrastar o mouse*/
 
     .caixa-texto p { /*texto da caixa de texto do sobre tema*/
         font-size: 13px; /*tamanho da fonte*/
-        margin-left: 5px; /*MARGEM para esquerda*/
+        margin-left: px; /*MARGEM para esquerda*/
     }
 
     .box1 { /*box de texto*/
@@ -635,13 +635,11 @@ a:hover, .active {  /*muda cor do link ao arrastar o mouse*/
 
     .box1 p { /* texto da box de texto*/
         font-size: 14px; /*tamanho da fonte*/
-        width: 300px; /*largura*/
-        margin-left: 50px; /*MARGEM para esqueda*/
-    }
+        width: 250px; /*largura*/    }
 
 
     .box1 button { /* botao box de texto*/
-        margin: 0px 0px 0px 120px; /*MARGEM*/
+        margin: 0px 0px 0px 55px; /*MARGEM*/
         width: 190px; /*largura*/
     }
 
@@ -652,9 +650,12 @@ a:hover, .active {  /*muda cor do link ao arrastar o mouse*/
 
     .box2 { /*box de imagem*/
 
-        margin: -146px 0px 0px 140px; /*MARGEM*/
+        margin: -146px 0px 0px 90px; /*MARGEM*/
+        
 
     }
+
+    
 
      /*Sobre o tema */
 

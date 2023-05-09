@@ -13,34 +13,32 @@ header {
     background: no-repeat center/cover url("./Assets/Capa_site.jpg")
 }
 
-.navegacao {
+.navegacao { /*barra de navegavação do site*/
     display: flex;
     list-style: none;
     justify-content: space-evenly;
     font-size: 20px;
     color: #FFFFFF;
     padding: 10px; /*ESPAÇAMENTO*/
-    font-family: 'Poppins', sans-serif;
 
 }
 
-a {
+a { /*link da pagina*/
     text-decoration: none;
     color: white;
 }
 
-a:hover,
-.active {
-    color: #49ff49 !important;
+a:hover, .active {  /*muda cor do link ao arrastar o mouse*/
+    color: #49ff49;
 }
 
-.caixa-titulo {
+.caixa-titulo { /*caixa titulo da capa*/
     margin-left: 330px; /*MARGEM para esquerda*/
     margin-top: 200px; /*MARGEM para cima*/
     animation: fadeIn 2s linear;
 }
 
-@keyframes fadeIn {
+@keyframes fadeIn { /*Animação do titulo*/
 
     /*transição FADE*/
     from {
@@ -52,19 +50,19 @@ a:hover,
     }
 }
 
-.caixa-titulo h1 {
+.caixa-titulo h1 { /*titulo da capa*/
     color: #00FF0A;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-size: 80px;
     padding: 10px; /*ESPAÇAMENTO*/
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif; /*FONTE DO TEXTO*/
 }
 
-.caixa-titulo h3 {
+.caixa-titulo h3 { /*subtitulo da capa*/
     color: white;
     margin-left: 140px;
     font-size: 30px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif; /*FONTE DO TEXTO*/
 }
 
 /*CAPA*/
@@ -72,7 +70,6 @@ a:hover,
 /*Informações Iniciais*/
 
 .informacoes {
-    font-family: 'Poppins', sans-serif;
     height: 600px;
     background-color: white;
 }
@@ -94,13 +91,11 @@ a:hover,
 }
 
 .conteudos p {
-    font-family: 'Poppins', sans-serif;
     text-align: center;
     margin-top: 20px; /*MARGEM para cima*/
 }
 
 .informacoes button {
-    font-family: 'Poppins', sans-serif;
     height: 130px;
     width: 130px;
     border-radius: 200px;
@@ -128,7 +123,6 @@ a:hover,
 .sobre {
     height: 580px;
     background-color: rgb(255, 255, 255);
-    font-family: 'Poppins', sans-serif;
 
 }
 
@@ -148,7 +142,6 @@ a:hover,
 }
 
 .box1 p {
-    font-family: 'Poppins', sans-serif;
     text-align: center;
     font-size: 20px;
     padding: 25px; /*ESPAÇAMENTO*/
@@ -231,7 +224,6 @@ a:hover,
 /*Inicio*/
 
 .informacoes {
-    font-family: 'Poppins', sans-serif;
     height: 600px;
     background-color: #FCFAF8;
 }
@@ -253,13 +245,11 @@ a:hover,
 }
 
 .conteudos p {
-    font-family: 'Poppins', sans-serif;
     text-align: center;
     margin-top: 20px; /*MARGEM para cima*/
 }
 
 .informacoes button {
-    font-family: 'Poppins', sans-serif;
     height: 130px;
     width: 130px;
     border-radius: 200px;
@@ -287,7 +277,6 @@ a:hover,
 .trabalho {
     height: 2500px;
     background-color: white;
-    font-family: 'Poppins', sans-serif;
 }
 
 .trabalho h1 {
@@ -315,7 +304,6 @@ a:hover,
 }
 
 .informacoes2 {
-    font-family: 'Poppins', sans-serif;
     height: 600px;
     background-color: white;
 }
@@ -337,13 +325,11 @@ a:hover,
 }
 
 .conteudos2 p {
-    font-family: 'Poppins', sans-serif;
     text-align: center;
     margin-top: 20px; /*MARGEM para cima*/
 }
 
 .informacoes2 button {
-    font-family: 'Poppins', sans-serif;
     height: 130px;
     width: 130px;
     border-radius: 200px;
@@ -371,7 +357,6 @@ a:hover,
 .sobre2 {
     height: 700px;
     background-color: #FCFAF8;
-    font-family: 'Poppins', sans-serif;
 
 }
 
@@ -399,7 +384,6 @@ a:hover,
 
 .consideracoes {
     height: 700px;
-    font-family: 'Poppins', sans-serif;
 
 }
 
@@ -425,7 +409,6 @@ a:hover,
 .integrantes {
     height: 400px;
     background-color: #191919;
-    font-family: 'Poppins', sans-serif;
 
 }
 

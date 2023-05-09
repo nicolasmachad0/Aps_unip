@@ -8,9 +8,9 @@
 
 /*CAPA*/
 
-header {
+header { /*tela de inicio*/
     height: calc(118vh - 110px); /*Altura*/
-    background: no-repeat center/cover url("./Assets/Capa_site.jpg")
+    background: no-repeat center/cover url("./Assets/Capa_site.jpg") /*imagem de fundo*/
 }
 
 .navegacao { /*barra de navegavação do site*/

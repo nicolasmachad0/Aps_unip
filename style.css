@@ -664,7 +664,7 @@ a:hover, .active {  /*muda cor do link ao arrastar o mouse*/
 /*trabalho*/
 
     .container-b {
-        height: 7600px; /*Altura*/
+        height: 7750px; /*Altura*/
     }
 
     .trabalho { /*tela de trabalho*/
@@ -685,7 +685,7 @@ a:hover, .active {  /*muda cor do link ao arrastar o mouse*/
     }
 
     .informacoes2 { /*tela de informações*/
-        height: 390px; /*Altura*/
+        height: 500px; /*Altura*/
     }
 
     .conteudos2 li { /*Listas do conteudo 2 do trabalho*/

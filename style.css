@@ -761,7 +761,7 @@ a:hover, .active {  /*muda cor do link ao arrastar o mouse*/
     .integrantes img { /*logo unip*/
         height: 60px; /*Altura*/
         width: 200px; /*largura*/
-        margin-left: 140px; /*MARGEM para esquerda*/
+        margin-left: 75px; /*MARGEM para esquerda*/
     }
 
     .box-2 ul { /*lista nao ordenada de box de integrantes*/

@@ -640,8 +640,7 @@ a:hover, .active {  /*muda cor do link ao arrastar o mouse*/
 
     .caixa-texto p {
         font-size: 13px; /*tamanho da fonte*/
-        margin-left: 60px; /*MARGEM para esquerda*/
-
+        margin-left: 70px; /*MARGEM para esquerda*/
     }
 
     .box1 {

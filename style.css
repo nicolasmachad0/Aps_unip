@@ -695,7 +695,7 @@ a:hover, .active {  /*muda cor do link ao arrastar o mouse*/
     .conteudos2 p { /*texto do conteudos 2 do trabalho*/
         margin-top: 15px; /*MARGEM para cima*/
         font-size: 12px; /*tamanho da fonte*/
-        margin-left: 0px; /*MARGEM para esquerda*/
+        margin-left: 10px; /*MARGEM para esquerda*/
     }
 
     .informacoes2 button { /*botoes da tela de informações*/
@@ -706,7 +706,7 @@ a:hover, .active {  /*muda cor do link ao arrastar o mouse*/
 
     .conteudos2 {
         gap: 0; /*distanciamento*/
-        margin-left: 40px; /*MARGEM para esquerda*/
+        margin-left: 0px; /*MARGEM para esquerda*/
     }
 
     .caixa-texto2 { /*caixa de texto 2 do conteudos 2*/

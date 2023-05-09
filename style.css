@@ -549,7 +549,7 @@ a:hover, .active {  /*muda cor do link ao arrastar o mouse*/
         margin: 0; /*MARGEM*/
         z-index: 99;
         background: #00FF0A;
-        color: white; /*cor*/
+        color: white; 
         font-weight: bold;
         height: 55px; /*Altura*/
         display: flex;
@@ -567,8 +567,12 @@ a:hover, .active {  /*muda cor do link ao arrastar o mouse*/
         text-align: center; /*Alinhamento de texto*/
     }
 
-    a{
+    header a{
         font-size: smaller; /*tamanho da fonte*/
+    }
+
+    header a:hover{
+        color: #0c6300;
     }
 
     /*Barra de navegação*/

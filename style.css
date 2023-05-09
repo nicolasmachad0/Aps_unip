@@ -15,8 +15,8 @@ header { /*tela de inicio*/
 
 .navegacao { /*barra de navegavação do site*/
     display: flex;
-    list-style: none; /*Tipo de lista*/
     justify-content: space-evenly;
+    list-style: none; /*Tipo de lista*/
     font-size: 20px; /*tamanho da fonte*/
     color: #FFFFFF; /*cor*/
     padding: 10px; /*ESPAÇAMENTO*/
@@ -24,7 +24,7 @@ header { /*tela de inicio*/
 }
 
 a { /*link da pagina*/
-    text-decoration: none;
+    text-decoration: none; /*decoração de texto*/
     color: white; /*cor*/
 }
 
@@ -35,7 +35,7 @@ a:hover, .active {  /*muda cor do link ao arrastar o mouse*/
 .caixa-titulo { /*caixa titulo da capa*/
     margin-left: 330px; /*MARGEM para esquerda*/
     margin-top: 200px; /*MARGEM para cima*/
-    animation: fadeIn 2s linear;
+    animation: fadeIn 2s linear; /*animação*/
 }
 
 @keyframes fadeIn { /*Animação do titulo*/
@@ -52,7 +52,7 @@ a:hover, .active {  /*muda cor do link ao arrastar o mouse*/
 
 .caixa-titulo h1 { /*titulo da capa*/
     color: #00FF0A; /*cor*/
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); /*sombra do texto*/
     font-size: 80px; /*tamanho da fonte*/
     padding: 10px; /*ESPAÇAMENTO*/
     font-family: 'Roboto', sans-serif; /*FONTE DO TEXTO*/
@@ -60,7 +60,7 @@ a:hover, .active {  /*muda cor do link ao arrastar o mouse*/
 
 .caixa-titulo h3 { /*subtitulo da capa*/
     color: white; /*cor*/
-    margin-left: 140px;
+    margin-left: 140px; /*margem para esquerda*/
     font-size: 30px; /*tamanho da fonte*/
     font-family: 'Roboto', sans-serif; /*FONTE DO TEXTO*/
 }
@@ -471,8 +471,8 @@ a:hover, .active {  /*muda cor do link ao arrastar o mouse*/
 
 
     .caixa-titulo {
-        margin-left: 20px;
-        margin-top: 200px;
+        margin-left: 20px; /*margem para esquerda*/
+        margin-top: 200px; /*margem para cima*/
     }
 
     /*capa*/
@@ -480,19 +480,19 @@ a:hover, .active {  /*muda cor do link ao arrastar o mouse*/
     /*Informações Iniciais*/
 
     .conteudos {
-        margin: 0px 0px 0px 90px;
+        margin: 0px 0px 0px 90px; /*margem*/
         gap: 82px; /*distanciamento*/
     }
 
     .caixa-texto {
         width: 400px; /*largura*/
-        margin-left: 250px;
+        margin-left: 250px; /*margem para esquerda*/
     }
 
     .caixa-texto p {
         font-size: 50px; /*tamanho da fonte*/
         width: 300px; /*largura*/
-        margin-left: -20px;
+        margin-left: -20px; /*margem para esquerda*/
     }
 
 
@@ -508,7 +508,7 @@ a:hover, .active {  /*muda cor do link ao arrastar o mouse*/
     .box2 img { 
         height: 142px; /*Altura*/
         width: 208px; /*largura*/
-        margin-top: 40px;
+        margin-top: 40px; /*margem para cima*/
     }
 
 
@@ -520,7 +520,7 @@ a:hover, .active {  /*muda cor do link ao arrastar o mouse*/
     }
 
     .box-2 {
-        margin-left: 80px;
+        margin-left: 80px; /*margem para esquerda*/
     }
 
     .box-2 ul {

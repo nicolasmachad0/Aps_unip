@@ -517,7 +517,7 @@ a:hover, .active {  /*muda cor do link ao arrastar o mouse*/
 
 /*CELULAR*/
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 520px) {
 
     /*Barra de navegação*/
 
@@ -592,13 +592,13 @@ a:hover, .active {  /*muda cor do link ao arrastar o mouse*/
 
     .conteudos { /* conteudos tela de informações*/
         gap: 0px; /*distanciamento*/
-
+        margin: 0px 0px 0px 20px;
     }
 
     .conteudos p { /*texto de conteudos*/
         margin-top: 15px; /*MARGEM para cima*/
         font-size: 12px; /*tamanho da fonte*/
-        margin-left: 0px; /*MARGEM para esquerda*/
+        margin-left: 15px; /*MARGEM para esquerda*/
     }
 
     .informacoes button { /*botoes da tela de informações*/ 
@@ -623,7 +623,7 @@ a:hover, .active {  /*muda cor do link ao arrastar o mouse*/
 
     .caixa-texto p { /*texto da caixa de texto do sobre tema*/
         font-size: 13px; /*tamanho da fonte*/
-        margin-left: 70px; /*MARGEM para esquerda*/
+        margin-left: 0px; /*MARGEM para esquerda*/
     }
 
     .box1 { /*box de texto*/

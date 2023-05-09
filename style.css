@@ -69,33 +69,33 @@ a:hover, .active {  /*muda cor do link ao arrastar o mouse*/
 
 /*Informações Iniciais*/
 
-.informacoes {
+.informacoes { /*tela de informações*/
     height: 600px; /*Altura*/
     background-color: white; /*cor de fundo*/
 }
 
-.informacoes h1 {
+.informacoes h1 { /*titulo da tela de informações*/
     text-align: center; /*Alinhamento de texto*/
     padding: 30px; /*ESPAÇAMENTO*/
 }
 
-.conteudos {
+.conteudos { /*conteudos tela de informações*/
     display: flex;
     list-style: none; /*Tipo de lista*/
     gap: 100px; /*distanciamento*/
     margin: 0px 0px 0px 370px; /*MARGEM*/
 }
 
-.conteudos li {
+.conteudos li { /* listas conteudos tela de informações*/
     display: grid;
 }
 
-.conteudos p {
+.conteudos p { /*titulos conteudos*/
     text-align: center; /*Alinhamento de texto*/
     margin-top: 20px; /*MARGEM para cima*/
 }
 
-.informacoes button {
+.informacoes button { /*botao de conteudos*/
     height: 130px; /*Altura*/
     width: 130px; /*largura*/
     border-radius: 200px; /* grossura borda*/
@@ -105,13 +105,13 @@ a:hover, .active {  /*muda cor do link ao arrastar o mouse*/
 
 }
 
-.caixa-texto {
+.caixa-texto { /*caixa de texto do conteudos*/
     height: 200px; /*Altura*/
     margin: 50px 200px 0px 200px; /*MARGEM*/
     background-color: rgb(255, 255, 255); /*cor de fundo*/
 }
 
-.caixa-texto p {
+.caixa-texto p { /*texto da caixa de conteudos*/
     text-align: center; /*Alinhamento de texto*/
     font-size: 20px; /*tamanho da fonte*/
 }
@@ -120,13 +120,13 @@ a:hover, .active {  /*muda cor do link ao arrastar o mouse*/
 
 /*Sobre o Tema*/
 
-.sobre {
+.sobre { /*tela de sobre o tema*/
     height: 580px; /*Altura*/
     background-color: rgb(255, 255, 255); /*cor de fundo*/
 
 }
 
-.sobre h1 {
+.sobre h1 { /*titulo da tela sobre o tema*/
     text-align: center; /*Alinhamento de texto*/
     padding: 30px; /*ESPAÇAMENTO*/
 }
@@ -135,19 +135,19 @@ a:hover, .active {  /*muda cor do link ao arrastar o mouse*/
     display: flex;
 }
 
-.box1 {
+.box1 { /*box de texto*/
     height: 400px; /*Altura*/
     width: 600px; /*largura*/
     margin: 30px 20px 0px 115px; /*MARGEM*/
 }
-
-.box1 p {
+ 
+.box1 p { /* texto da box de texto*/
     text-align: center; /*Alinhamento de texto*/
     font-size: 20px; /*tamanho da fonte*/
     padding: 25px; /*ESPAÇAMENTO*/
 }
 
-.box1 button {
+.box1 button { /* botao box de texto*/
     margin: 10px 0px 0px 220px; /*MARGEM*/
     background-color: #49ff49; /*cor de fundo*/
     color: white; /*cor*/
@@ -159,20 +159,20 @@ a:hover, .active {  /*muda cor do link ao arrastar o mouse*/
     border: none; /*borda*/
 }
 
-.box1 button:hover {
+.box1 button:hover { /*animação do botão*/
     background-color: transparent; /*cor de fundo*/
     border: 2px solid #49ff49; /*borda*/
     color: #49ff49; /*cor*/
 }
 
-.box2 {
+.box2 { /*box de imagem*/
     height: 300px; /*Altura*/
     width: 0px; /*largura*/
     margin: 40px 40px 0px 0px; /*MARGEM*/
     overflow: hidden;
 }
 
-.box2 img {
+.box2 img { /*imagem da box de imagem*/
     object-fit: cover;
     height: 280px; /*Altura*/
     width: 420px; /*largura*/
@@ -184,7 +184,7 @@ a:hover, .active {  /*muda cor do link ao arrastar o mouse*/
 
 }
 
-@keyframes animacao {
+@keyframes animacao { /*animação de slider de imagens*/
     25% {
         opacity: 1;
         transform: scale(1.1, 1.1);
@@ -223,33 +223,33 @@ a:hover, .active {  /*muda cor do link ao arrastar o mouse*/
 
 /*Inicio*/
 
-.informacoes {
+.informacoes { /*tela de informações*/
     height: 600px; /*Altura*/
     background-color: #FCFAF8; /*cor de fundo*/
 }
 
-.informacoes h1 {
+.informacoes h1 { /*titulo de tela de informações*/
     text-align: center; /*Alinhamento de texto*/
     padding: 30px; /*ESPAÇAMENTO*/
 }
 
-.conteudos {
+.conteudos { /*conteudos*/
     display: flex;
     list-style: none; /*Tipo de lista*/
     gap: 100px; /*distanciamento*/
     margin: 0px 0px 0px 370px; /*MARGEM*/
 }
 
-.conteudos li {
+.conteudos li { /*listas conteudos*/
     display: grid;
 }
 
-.conteudos p {
+.conteudos p { /* texto conteudos*/
     text-align: center; /*Alinhamento de texto*/
     margin-top: 20px; /*MARGEM para cima*/
 }
 
-.informacoes button {
+.informacoes button { /*botoes tela de informações*/
     height: 130px; /*Altura*/
     width: 130px; /*largura*/
     border-radius: 200px; /*grossura da borda*/
@@ -259,13 +259,13 @@ a:hover, .active {  /*muda cor do link ao arrastar o mouse*/
 
 }
 
-.caixa-texto {
+.caixa-texto { /*caixa de texto do conteudos*/
     height: 200px; /*Altura*/
     margin: 50px 200px 0px 200px; /*MARGEM*/
     background-color: #FCFAF8; /*cor de fundo*/
 }
 
-.caixa-texto p {
+.caixa-texto p { /*texto da caixa de texto do conteudos*/
     text-align: center; /*Alinhamento de texto*/
     font-size: 20px; /*tamanho da fonte*/
 }
@@ -274,21 +274,21 @@ a:hover, .active {  /*muda cor do link ao arrastar o mouse*/
 
 /*Conteudo*/
 
-.trabalho {
+.trabalho { /*trabalho*/
     height: 2500px; /*Altura*/
     background-color: white; /*cor de fundo*/
 }
 
-.trabalho h1 {
+.trabalho h1 { /*titulo do trabalho*/
     text-align: center; /*Alinhamento de texto*/
     padding: 30px; /*ESPAÇAMENTO*/
 }
 
-.trabalho h2 {
+.trabalho h2 { /*subtitulos do trabalho*/
     margin-left: 110px; /*MARGEM*/
 }
 
-.trabalho p {
+.trabalho p { /*texto do trabalho*/
 
     text-align: justify; /*Alinhamento de texto*/
     font-size: 20px; /*tamanho da fonte*/
@@ -297,39 +297,41 @@ a:hover, .active {  /*muda cor do link ao arrastar o mouse*/
     margin-right: 110px; /*MARGEM para direita*/
 }
 
-.trabalho .p2 {
+.trabalho .p2 { /*texto 2 do trabalho*/
 
     text-align: center; /*Alinhamento de texto*/
     margin-top: 10px; /*MARGEM para cima*/
 }
 
-.informacoes2 {
+    /*botoes de projetos*/
+
+.informacoes2 { /*tela de informações*/
     height: 600px; /*Altura*/
     background-color: white; /*cor de fundo*/
 }
 
-.informacoes2 h1 {
+.informacoes2 h1 { /*titulo da tela de informações*/
     text-align: center; /*Alinhamento de texto*/
     padding: 30px; /*ESPAÇAMENTO*/
 }
 
-.conteudos2 {
+.conteudos2 { /*Conteudo da tela de informações 2*/
     display: flex;
     list-style: none; /*Tipo de lista*/
     gap: 100px; /*distanciamento*/
     margin: 0px 0px 0px 370px; /*MARGEM*/
 }
 
-.conteudos2 li {
+.conteudos2 li {/*lista de conteudo da tela de informações 2*/
     display: grid;
 }
 
-.conteudos2 p {
+.conteudos2 p { /*texto de conteudo da tela de informações 2*/
     text-align: center; /*Alinhamento de texto*/
     margin-top: 20px; /*MARGEM para cima*/
 }
 
-.informacoes2 button {
+.informacoes2 button { /*botoes da tela de informações*/
     height: 130px; /*Altura*/
     width: 130px; /*largura*/
     border-radius: 200px; /*grossura da borda*/
@@ -339,86 +341,65 @@ a:hover, .active {  /*muda cor do link ao arrastar o mouse*/
 
 }
 
-.caixa-texto2 {
-    height: 200px; /*Altura*/
+.caixa-texto2 { /*caixa de texto 2 do conteudos 2*/
+    height: 200px; /*Altura*/;
     margin: 50px 200px 0px 200px; /*MARGEM*/
     background-color: white; /*cor de fundo*/
 }
 
-.caixa-texto2 p {
+.caixa-texto2 p { /*Texto da caixa de texto 2 do conteudos 2*/
     text-align: center; /*Alinhamento de texto*/
     font-size: 20px; /*tamanho da fonte*/
 }
+    /*botoes de pojeto*/
 
 /*Conteudo*/
 
 /*Sobre2*/
 
-.sobre2 {
+.sobre2 { /*Tela de sobre 2*/
     height: 700px; /*Altura*/
     background-color: #FCFAF8; /*cor de fundo*/
 
 }
 
-.sobre2 h1 {
+.sobre2 h1 { /*Titulo da Tela de sobre 2*/
     text-align: center; /*Alinhamento de texto*/
     padding: 30px; /*ESPAÇAMENTO*/
 }
 
-.sobre2 h2 {
+.sobre2 h2 { /*Subtitulo da Tela de sobre 2*/
     text-align: center; /*Alinhamento de texto*/
     font-size: 20px; /*tamanho da fonte*/
     margin-left: 100px; /*MARGEM  para esquerda*/
     margin-right: 100px; /*MARGEM para direita*/
 }
 
-.listas {
+.listas { /*Lista Tela de sobre 2*/
     margin-left: 150px; /*MARGEM para esquerda*/
     margin-right: 150px; /*MARGEM para direita*/
     text-align: justify;  /*Alinhamento de texto*/
 }
 
-/*Sobre2*/
+    /*Sobre2*/
 
-/*considerações*/
-
-.consideracoes {
-    height: 700px; /*Altura*/
-
-}
-
-.consideracoes h1 {
-    text-align: center; /*Alinhamento de texto*/
-    padding: 30px; /*ESPAÇAMENTO*/
-}
-
-.consideracoes p {
-    text-align: left; /*Alinhamento de texto*/
-    font-size: 20px; /*tamanho da fonte*/
-    Vertical-align: Top; /*alinhamento de texto*/
-    margin-left: 110px; /*MARGEM para esquerda*/
-    margin-right: 110px; /*MARGEM para direita*/
-}
-
-/*considerações*/
-
-/*pagina2*/
+/*>>>>>pagina2<<<<<*/
 
 /*Integrantes*/
 
-.integrantes {
+.integrantes { /*tela de inetgrantes*/
     height: 400px; /*Altura*/
     background-color: #191919; /*cor de fundo*/
 
 }
 
-.integrantes h1 {
+.integrantes h1 { /*titulo de tela integrantes*/
     text-align: center; /*Alinhamento de texto*/
     padding: 30px; /*ESPAÇAMENTO*/
     color: white; /*cor*/
 }
 
-.integrantes img {
+.integrantes img { /*logo unip*/
     height: 150px; /*Altura*/
     width: 500px; /*largura*/
     margin-top: 20px; /*MARGEM para cima*/
@@ -429,12 +410,12 @@ a:hover, .active {  /*muda cor do link ao arrastar o mouse*/
     display: flex;
 }
 
-.box-2 {
+.box-2 { /*box de integrantes*/
     margin-left: 250px; /*MARGEM para esquerda*/
     margin-top: 50px; /*MARGEM para cima*/
 }
 
-.box-2 ul {
+.box-2 ul { /*lista de tela integrantes*/
     list-style: none; /*Tipo de lista*/
     color: white; /*cor*/
     font-size: 20px; /*tamanho da fonte*/
@@ -443,7 +424,7 @@ a:hover, .active {  /*muda cor do link ao arrastar o mouse*/
 
 }
 
-.integrantes p {
+.integrantes p { /*texto de tela integrantes*/
     text-align: center; /*Alinhamento de texto*/
     color: white; /*cor*/
     margin-top: 40px; /*MARGEM para cima*/
@@ -460,17 +441,17 @@ a:hover, .active {  /*muda cor do link ao arrastar o mouse*/
 
     /*capa*/
 
-    header {
+    header { /*tela de inicio*/
         width: 100%; /*Largura*/ 
         padding: 0;
     }
 
-    .navegacao {
+    .navegacao { /*barra de navegavação do site*/
         font-size: 15px; /*tamanho da fonte*/
     }
 
 
-    .caixa-titulo {
+    .caixa-titulo { /*caixa titulo da capa*/
         margin-left: 20px; /*margem para esquerda*/
         margin-top: 200px; /*margem para cima*/
     }
@@ -479,33 +460,33 @@ a:hover, .active {  /*muda cor do link ao arrastar o mouse*/
 
     /*Informações Iniciais*/
 
-    .conteudos {
+    .conteudos { /*conteudos*/
         margin: 0px 0px 0px 90px; /*margem*/
         gap: 82px; /*distanciamento*/
     }
 
-    .caixa-texto {
+    .caixa-texto { /*caixa de texto do conteudos*/
         width: 400px; /*largura*/
         margin-left: 250px; /*margem para esquerda*/
     }
 
-    .caixa-texto p {
+    .caixa-texto p { /*texto da caixa de texto do conteudos*/
         font-size: 50px; /*tamanho da fonte*/
         width: 300px; /*largura*/
         margin-left: -20px; /*margem para esquerda*/
     }
 
 
-    .box1 p {
+    .box1 p { /* texto da box de texto*/
         font-size: 14px; /*tamanho da fonte*/
     }
 
-    .box1 button {
+    .box1 button { /* botao box de texto*/
         margin: 10px 0px 0px 70px; /*Margem*/
         height: 50px; /*Altura*/
     }
 
-    .box2 img { 
+    .box2 img { /*imagem da box de imagem*/
         height: 142px; /*Altura*/
         width: 208px; /*largura*/
         margin-top: 40px; /*margem para cima*/
@@ -514,16 +495,16 @@ a:hover, .active {  /*muda cor do link ao arrastar o mouse*/
 
     /*INTEGRANTES*/
 
-    .integrantes img {
+    .integrantes img { /*logo unip*/
         height: 110px; /*Altura*/
         width: 300px; /*largura*/
     }
 
-    .box-2 {
+    .box-2 { /*box de integrantes*/
         margin-left: 80px; /*margem para esquerda*/
     }
 
-    .box-2 ul {
+    .box-2 ul { /*lista nao ordenada box de integrantes*/
         font-size: 12px; /*tamanho da fonte*/
         padding: 0; /*espaçamento*/
     }
@@ -579,89 +560,87 @@ a:hover, .active {  /*muda cor do link ao arrastar o mouse*/
 
     /*Informações Iniciais*/
 
-    .navegacao {
+    .navegacao { /*barra de navegavação do site*/
         text-align: center; /*Alinhamento de texto*/
     }
 
-    header {
+    header { /*tela de inicio*/
         width: 100%; /*largura*/
         padding: 0; /*ESPAÇAMENTO*/
         height: calc(100vh - 210px); /*Altura*/
     }
 
-    .caixa-titulo {
+    .caixa-titulo { /*caixa titulo da capa*/
         margin-left: 10px; /*MARGEM para esquerda*/ 
         margin-top: 150px; /*MARGEM para cima*/
     }
 
-    .caixa-titulo h1 {
+    .caixa-titulo h1 { /* titulo da caixa titulo da capa*/
         font-size: 40px; /*tamanho da fonte*/
         text-align: center; /*Alinhamento de texto*/
     }
 
-    .caixa-titulo h3 {
+    .caixa-titulo h3 { /* subtitulo da caixa titulo da capa*/
         text-align: center; /*Alinhamento de texto*/
         font-size: 20px; /*tamanho da fonte*/
         margin-left: 0px; /*MARGEM para esquerda*/
     }
 
-    .informacoes {
+    .informacoes { /*tela de informações*/
         height: 500px; /*Altura*/
     }
 
-    .conteudos {
+    .conteudos { /* conteudos tela de informações*/
         gap: 0px; /*distanciamento*/
 
     }
 
-    .conteudos p {
+    .conteudos p { /*texto de conteudos*/
         margin-top: 15px; /*MARGEM para cima*/
         font-size: 12px; /*tamanho da fonte*/
         margin-left: 0px; /*MARGEM para esquerda*/
     }
 
-
-
-    .informacoes button {
+    .informacoes button { /*botoes da tela de informações*/ 
         margin-left: 30px; /*MARGEM para esquerda*/
         height: 71px; /*Altura*/
         width: 73px; /*largura*/
     }
 
-    img {
+    img { /*imagens dos botoes*/
         height: 40px; /*Altura*/
     }
 
     /*Informações Iniciais*/
 
-
     /*Sobre o tema */
-    .caixa-texto {
+
+    .caixa-texto { /*caixa de texto do sobre tema*/
         margin-left: 35px; /*MARGEM para esquerda*/
         width: 315px; /*largura*/
 
     }
 
-    .caixa-texto p {
+    .caixa-texto p { /*texto da caixa de texto do sobre tema*/
         font-size: 13px; /*tamanho da fonte*/
         margin-left: 70px; /*MARGEM para esquerda*/
     }
 
-    .box1 {
+    .box1 { /*box de texto*/
         height: 400px; /*Altura*/
         width: 0; /*largura*/
         margin: 0px 10px 10px 30px; /*MARGEM*/
 
     }
 
-    .box1 p {
+    .box1 p { /* texto da box de texto*/
         font-size: 14px; /*tamanho da fonte*/
         width: 300px; /*largura*/
         margin-left: 50px; /*MARGEM para esqueda*/
     }
 
 
-    .box1 button {
+    .box1 button { /* botao box de texto*/
         margin: 0px 0px 0px 120px; /*MARGEM*/
         width: 190px; /*largura*/
     }
@@ -671,53 +650,56 @@ a:hover, .active {  /*muda cor do link ao arrastar o mouse*/
         flex-direction: column;
     }
 
-    .box2 {
+    .box2 { /*box de imagem*/
 
         margin: -146px 0px 0px 140px; /*MARGEM*/
 
     }
 
-    /*Sobre o tema */
+     /*Sobre o tema */
 
 
-    /*>>>>>>>Segunda Pagina<<<<<*/
+        /*>>>>>>>Segunda Pagina<<<<<*/
+
+
+/*trabalho*/
 
     .container-b {
         height: 6020px; /*Altura*/
     }
 
-    .trabalho {
+    .trabalho { /*tela de trabalho*/
         height: 4220px; /*Altura*/
     }
 
-    .trabalho h2 {
+    .trabalho h2 { /*Subtitulo trabalho*/
         font-size: 26px; /*tamanho da fonte*/
         margin: 30px; /*MARGEM*/
         text-align: center; /*Alinhamento de texto*/
     } 
 
-    .trabalho p {
+    .trabalho p { /*Texto trabalho*/
         font-size: 15px; /*tamanho da fonte*/
         text-align: center; /*Alinhamento de texto*/
         margin: 0px; /*MARGEM*/
         padding: 0 50px 0 50px; /*ESPAÇAMENTO*/
     }
 
-    .informacoes2 {
+    .informacoes2 { /*tela de informações*/
         height: 390px; /*Altura*/
     }
 
-    .conteudos2 li {
+    .conteudos2 li { /*Listas do conteudo 2 do trabalho*/
         width: 140px; /*largura*/
     }
 
-    .conteudos2 p {
+    .conteudos2 p { /*texto do conteudos 2 do trabalho*/
         margin-top: 15px; /*MARGEM para cima*/
         font-size: 12px; /*tamanho da fonte*/
         margin-left: 0px; /*MARGEM para esquerda*/
     }
 
-    .informacoes2 button {
+    .informacoes2 button { /*botoes da tela de informações*/
         margin-left: 30px; /*MARGEM para esquerda*/
         height: 71px; /*Altura*/
         width: 73px; /*largura*/
@@ -728,35 +710,37 @@ a:hover, .active {  /*muda cor do link ao arrastar o mouse*/
         margin-left: 40px; /*MARGEM para esquerda*/
     }
 
-    .caixa-texto2 {
+    .caixa-texto2 { /*caixa de texto 2 do conteudos 2*/
         margin: 35px; /*MARGEM*/
 
     }
 
-    .caixa-texto2 p {
+    .caixa-texto2 p { /*Texto da caixa de texto 2 do conteudos 2*/
         font-size: 14.5px; /*tamanho da fonte*/
     }
 
-    .unimed {
+    .unimed { /*logo unimed*/
         height: 25px; /*Altura*/
     }
 
+    /*trabalho*/
+
     /*Como esse tema contribui*/
 
-    .sobre2 {
+    .sobre2 { /*tela de sobre 2*/
         height: 1000px; /*Altura*/
     }
 
-    .sobre2 h1 {
+    .sobre2 h1 { /*titulo de sobre 2*/
         font-size: 25px; /*tamanho da fonte*/
     }
 
-    .sobre2 h2 {
+    .sobre2 h2 { /*Subtitulo de sobre 2*/
         font-size: 15px; /*tamanho da fonte*/
         margin: 20px; /*MARGEM*/
     }
 
-    .sobre2 ul {
+    .sobre2 ul { /*Listas nao ordenada sobre 2*/
         margin: 40px; /*MARGEM*/
         font-size: 15px; /*tamanho da fonte*/
         text-align: center; /*alinhamento de texto*/
@@ -773,13 +757,13 @@ a:hover, .active {  /*muda cor do link ao arrastar o mouse*/
         display: block
     }
 
-    .integrantes img {
+    .integrantes img { /*logo unip*/
         height: 60px; /*Altura*/
         width: 200px; /*largura*/
         margin-left: 140px; /*MARGEM para esquerda*/
     }
 
-    .box-2 ul {
+    .box-2 ul { /*lista nao ordenada de box de integrantes*/
         margin-right: 75px; /*MARGEM para direita*/
         font-size: 10px; /*tamanho da fonte*/
         padding: 0; /*ESPAÇAMENTO*/

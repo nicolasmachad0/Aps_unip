@@ -623,7 +623,7 @@ a:hover, .active {  /*muda cor do link ao arrastar o mouse*/
 
     .caixa-texto p { /*texto da caixa de texto do sobre tema*/
         font-size: 13px; /*tamanho da fonte*/
-        margin-left: 0px; /*MARGEM para esquerda*/
+        margin-left: 5px; /*MARGEM para esquerda*/
     }
 
     .box1 { /*box de texto*/

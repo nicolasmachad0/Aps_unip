@@ -447,7 +447,7 @@ a:hover, .active {  /*muda cor do link ao arrastar o mouse*/
     }
 
     .navegacao { /*barra de navegavação do site*/
-        font-size: 15px; /*tamanho da fonte*/
+        font-size: 13px; /*tamanho da fonte*/
     }
 
 
@@ -529,7 +529,7 @@ a:hover, .active {  /*muda cor do link ao arrastar o mouse*/
         padding: 0; /*ESPAÇAMENTO*/
         margin: 0; /*MARGEM*/
         z-index: 99;
-        background: #00FF0A;
+        background: #1cc71f;
         color: white; 
         font-weight: bold;
         height: 55px; /*Altura*/
@@ -553,7 +553,7 @@ a:hover, .active {  /*muda cor do link ao arrastar o mouse*/
     }
 
     header a:hover{
-        color: #0c6300;
+        color: #050505;
     }
 
     /*Barra de navegação*/

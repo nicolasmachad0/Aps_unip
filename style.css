@@ -545,7 +545,7 @@ a:hover, .active {  /*muda cor do link ao arrastar o mouse*/
 
     header nav p {
         width: 100%; /*largura*/
-        text-align: center; /*Alinhamento de texto*/
+        text-align: justify; /*Alinhamento de texto*/
     }
 
     header a{
@@ -599,6 +599,7 @@ a:hover, .active {  /*muda cor do link ao arrastar o mouse*/
         margin-top: 15px; /*MARGEM para cima*/
         font-size: 12px; /*tamanho da fonte*/
         margin-left: 15px; /*MARGEM para esquerda*/
+        
     }
 
     .informacoes button { /*botoes da tela de informações*/ 
@@ -635,7 +636,9 @@ a:hover, .active {  /*muda cor do link ao arrastar o mouse*/
 
     .box1 p { /* texto da box de texto*/
         font-size: 14px; /*tamanho da fonte*/
-        width: 250px; /*largura*/    }
+        width: 250px; /*largura*/    
+        text-align: justify;
+    }
 
 
     .box1 button { /* botao box de texto*/
@@ -679,7 +682,7 @@ a:hover, .active {  /*muda cor do link ao arrastar o mouse*/
 
     .trabalho p { /*Texto trabalho*/
         font-size: 15px; /*tamanho da fonte*/
-        text-align: center; /*Alinhamento de texto*/
+        text-align: justify; /*Alinhamento de texto*/
         margin: 0px; /*MARGEM*/
         padding: 0 50px 0 50px; /*ESPAÇAMENTO*/
     }
@@ -742,7 +745,7 @@ a:hover, .active {  /*muda cor do link ao arrastar o mouse*/
     .sobre2 ul { /*Listas nao ordenada sobre 2*/
         margin: 40px; /*MARGEM*/
         font-size: 15px; /*tamanho da fonte*/
-        text-align: center; /*alinhamento de texto*/
+        text-align: justify; /*alinhamento de texto*/
         list-style: none; /*Tipo de lista*/
     }
 

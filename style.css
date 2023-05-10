@@ -592,7 +592,7 @@ a:hover, .active {  /*muda cor do link ao arrastar o mouse*/
 
     .conteudos { /* conteudos tela de informações*/
         gap: 0px; /*distanciamento*/
-        margin: 0px 0px 0px 20px;
+        margin: 0px 0px 0px 10px;
     }
 
     .conteudos p { /*texto de conteudos*/

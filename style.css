@@ -592,7 +592,7 @@ a:hover, .active {  /*muda cor do link ao arrastar o mouse*/
 
     .conteudos { /* conteudos tela de informações*/
         gap: 0px; /*distanciamento*/
-        margin: 0px 0px 0px 10px;
+        margin: 0px 0px 0px 10px; /*MARGEM*/
     }
 
     .conteudos p { /*texto de conteudos*/
@@ -635,9 +635,10 @@ a:hover, .active {  /*muda cor do link ao arrastar o mouse*/
     }
 
     .box1 p { /* texto da box de texto*/
-        font-size: 14px; /*tamanho da fonte*/
-        width: 250px; /*largura*/    
+        font-size: 13px; /*tamanho da fonte*/
+        width: 230px; /*largura*/    
         text-align: justify;
+        margin-left: 10px;
     }
 
 

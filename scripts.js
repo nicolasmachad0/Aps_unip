@@ -28,18 +28,18 @@ function trocaTexto3() {
 function trocaTexto4() {
   var texto = document.getElementById("meuTexto2");
   if (texto.innerHTML === "Texto inicial") {
-      texto.innerHTML = "O conceito de sustentabilidade começou a ser difundido pelo mundo logo após a Segunda Guerra Mundial, em função da crescente evolução tecnológica que se estendeu até a Guerra Fria, causando impactos como poluição atmosférica, poluição dos solos, desmatamento e esgotamento de recursos naturais.";
+      texto.innerHTML = "O consumismo teve origem a partir da revolução industrial. Após os processos de produção e circulação de um determinado produto ter sido agilizado, a população passou a consumir muito mais do que consumia antes.";
   } else {
-      texto.innerHTML = "O conceito de sustentabilidade começou a ser difundido pelo mundo logo após a Segunda Guerra Mundial, em função da crescente evolução tecnológica que se estendeu até a Guerra Fria, causando impactos como poluição atmosférica, poluição dos solos, desmatamento e esgotamento de recursos naturais.";
+      texto.innerHTML = "O consumismo teve origem a partir da revolução industrial. Após os processos de produção e circulação de um determinado produto ter sido agilizado, a população passou a consumir muito mais do que consumia antes.";
   }
 }
 
 function trocaTexto5() {
   var texto = document.getElementById("meuTexto2");
   if (texto.innerHTML === ".") {
-      texto.innerHTML = "A compreensão da importância do papel da sustentabilidade no meio ambiente é fundamental e já está sendo colocada em prática pela população e grande parte das empresas, que buscam minimizar o impacto de suas ações na natureza por meio da reciclagem de seus materiais e a utilização de fontes renováveis de energia.";
+      texto.innerHTML = "Em Sorocaba e região, são cidades que tendem aumentar mais e mais o consumo por conta grandes desenvolvimentos das empresas e industrias. ";
   } else {
-      texto.innerHTML = "A compreensão da importância do papel da sustentabilidade no meio ambiente é fundamental e já está sendo colocada em prática pela população e grande parte das empresas, que buscam minimizar o impacto de suas ações na natureza por meio da reciclagem de seus materiais e a utilização de fontes renováveis de energia.";
+      texto.innerHTML = "Em Sorocaba e região, são cidades que tendem aumentar mais e mais o consumo por conta grandes desenvolvimentos das empresas e industrias. ";
   }
 }
 

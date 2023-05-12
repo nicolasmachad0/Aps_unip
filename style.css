@@ -276,7 +276,7 @@ a:hover, .active {  /*muda cor do link ao arrastar o mouse*/
 /*Conteudo*/
 
 .trabalho { /*trabalho*/
-    height: 2500px; /*Altura*/
+    height: 2680px; /*Altura*/
     background-color: white; /*cor de fundo*/
 }
 
@@ -359,7 +359,7 @@ a:hover, .active {  /*muda cor do link ao arrastar o mouse*/
 /*Sobre2*/
 
 .sobre2 { /*Tela de sobre 2*/
-    height: 700px; /*Altura*/
+    height: 620px; /*Altura*/
     background-color: #FCFAF8; /*cor de fundo*/
 
 }
@@ -673,7 +673,7 @@ a:hover, .active {  /*muda cor do link ao arrastar o mouse*/
 /*trabalho*/
 
     .container-b {
-        height: 7750px; /*Altura*/
+        height: 8700px; /*Altura*/
     }
 
     .trabalho { /*tela de trabalho*/

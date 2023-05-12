@@ -121,7 +121,7 @@ a:hover, .active {  /*muda cor do link ao arrastar o mouse*/
 /*Sobre o Tema*/
 
 .sobre { /*tela de sobre o tema*/
-    height: 580px; /*Altura*/
+    height: 620px; /*Altura*/
     background-color: rgb(255, 255, 255); /*cor de fundo*/
 
 }
@@ -177,6 +177,7 @@ a:hover, .active {  /*muda cor do link ao arrastar o mouse*/
     height: 280px; /*Altura*/
     width: 420px; /*largura*/
     margin-left: 0px; /*MARGEM*/
+    margin-top: 30px;
     animation: animacao infinite 20s;
     opacity: 0;
     position: absolute;
@@ -657,6 +658,10 @@ a:hover, .active {  /*muda cor do link ao arrastar o mouse*/
         margin: -146px 0px 0px 90px; /*MARGEM*/
         
 
+    }
+
+    .box2 img{
+        margin-top: 95px;
     }
 
      /*Sobre o tema */

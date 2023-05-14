@@ -19,9 +19,9 @@ function trocaTexto2() {
 function trocaTexto3() {
   var texto = document.getElementById("meuTexto");
   if (texto.innerHTML === ".") {
-    texto.innerHTML = "Refere à redução da quantidade de recursos naturais e materiais utilizados pelos indivíduos e pela sociedade como um todo. .";
+    texto.innerHTML = "Refere à velocidade de consumo de recursos naturais e materiais utilizados pelos indivíduos e pela sociedade como um todo. .";
   } else {
-    texto.innerHTML = "Refere à redução da quantidade de recursos naturais e materiais utilizados pelos indivíduos e pela sociedade como um todo.";
+    texto.innerHTML = "Refere à velocidade de consumo de recursos naturais e materiais utilizados pelos indivíduos e pela sociedade como um todo.";
   }
 }
 
